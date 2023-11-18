@@ -10,7 +10,7 @@ FROM user
 WHERE id = 10;
 
 # 3 Find how many users exist in the database
-SELECT COUNT(*) 
+SELECT COUNT(*) AS user_count
 FROM user;
 
 # 4 Select the names of the first 5 users in the database
@@ -36,7 +36,7 @@ ORDER BY name ASC;
 # 8 Find all tasks that include SQL either on the title or on the description
 SELECT *
 FROM task
-WHERE title LIKE '%SQL%' or description LIKE '%SQL%';
+WHERE title LIKE '%SQL%' OR description LIKE '%SQL%';
 
 # 9 Find the title of all tasks that the user Maryrose is responsible for
 SELECT task.title
@@ -45,19 +45,15 @@ INNER JOIN task on task.user_id = user.id
 WHERE user.name LIKE 'Maryrose%';
 
 # 10 Find how many tasks each user is responsible for
-SELECT user.name, COUNT(*) as task_count
+SELECT user.name, COUNT(*) AS task_count
 FROM user
 INNER JOIN task ON task.user_id = user.id
 GROUP BY user.id;
 
 # 11 Find how many tasks with a status=Done each user is responsible for
-SELECT user.name, COUNT(*) as task_count
+SELECT user.name, COUNT(*) AS task_count
 FROM user
 INNER JOIN task ON task.user_id = user.id
 INNER JOIN status ON task.status_id = status.id
 WHERE status.name = 'Done'
 GROUP BY user.id;
-
-
-
-
