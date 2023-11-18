@@ -1,11 +1,5 @@
 USE databases_lesson1;
 
-select * from user
-
-select * from status
-
-select * from task
-
 # 1 Select the names and phones of all users
 SELECT name, phone 
 FROM user;
