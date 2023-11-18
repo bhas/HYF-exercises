@@ -47,14 +47,14 @@ WHERE user.name LIKE 'Maryrose%';
 # 10 Find how many tasks each user is responsible for
 SELECT user.name, COUNT(*) as task_count
 FROM user
-INNER JOIN task on task.user_id = user.id
+INNER JOIN task ON task.user_id = user.id
 GROUP BY user.id;
 
 # 11 Find how many tasks with a status=Done each user is responsible for
 SELECT user.name, COUNT(*) as task_count
 FROM user
-INNER JOIN task on task.user_id = user.id
-INNER JOIN status on task.status_id = status.id
+INNER JOIN task ON task.user_id = user.id
+INNER JOIN status ON task.status_id = status.id
 WHERE status.name = 'Done'
 GROUP BY user.id;
 
