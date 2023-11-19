@@ -23,3 +23,11 @@ CREATE TABLE `student` (
   `class_id` int(10) unsigned,
   CONSTRAINT `fk_class` FOREIGN KEY (`class_id`) REFERENCES `class` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+# 2.2 Create an index on the name column of the student table
+CREATE INDEX name_idx ON student (name);
+
+# 2.3 Add a new column to the class table named status which can only have the following values: not-started, ongoing, finished (hint: enumerations)
+ALTER TABLE class   
+ADD status ENUM('not-started', 'ongoing', 'finished') NOT NULL;
