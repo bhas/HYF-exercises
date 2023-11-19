@@ -1,9 +1,5 @@
 USE databases_lesson1;
 
-select * from task
-
-select * from status
-
 # 1 Find out how many tasks are in the task table
 SELECT COUNT(*) AS task_count
 FROM task;
