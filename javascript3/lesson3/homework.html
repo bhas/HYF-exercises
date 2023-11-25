@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<body>
+
+<h1>Javascript 3 - Homework</h1>
+
+<h2>Create new screenshot</h3>
+<p>Generate a screenshot off any webpage by pasting the url below</p>
+
+<input type="text" value="https://github.com/" placeholder="Enter URL here" id="urlInput"></input>
+<button type="button" onclick="onScreenshotBtnClick()">Get screenshot</button>
+<button type="button" onclick="onSaveScreenshotBtnClick()">Save screenshot</button>
+
+<img style="margin: 40px;" width="1000" height="600" id="screenshotImg" src="https://placehold.co/1000x600?text=No+image"/>
+
+<hr>
+
+<h2>Your screenshots</h3>
+
+<div style="display: flex; flex-direction: row;" id="screenshotContainer">
+    <div style="margin: 10px;display: flex; flex-direction: column; align-items: start;">
+        <div style="max-width: 200px; text-overflow: ellipsis;overflow: hidden;white-space: nowrap;">https://placehold.co/1000x600?text=No+image</div>
+        <img style="margin: 10px 0px;" width="200" height="120" src="https://placehold.co/1000x600?text=No+image"/>
+        <button type="button" onclick="onDeleteBtnClick()">Delete</button>
+    </div>
+    <div style="margin: 10px;display: flex; flex-direction: column; align-items: start;">
+        <div style="max-width: 200px; text-overflow: ellipsis;overflow: hidden;white-space: nowrap;">https://placehold.co/1000x600?text=No+image</div>
+        <img style="margin: 10px 0px;" width="200" height="120" src="https://placehold.co/1000x600?text=No+image"/>
+        <button type="button" onclick="onDeleteBtnClick()">Delete</button>
+    </div>
+    <div style="margin: 10px;display: flex; flex-direction: column; align-items: start;">
+        <div style="max-width: 200px; text-overflow: ellipsis;overflow: hidden;white-space: nowrap;">https://placehold.co/1000x600?text=No+image</div>
+        <img style="margin: 10px 0px;" width="200" height="120" src="https://placehold.co/1000x600?text=No+image"/>
+        <button type="button" onclick="onDeleteBtnClick()">Delete</button>
+    </div>
+    <div style="margin: 10px;display: flex; flex-direction: column; align-items: start;">
+        <div style="max-width: 200px; text-overflow: ellipsis;overflow: hidden;white-space: nowrap;">https://placehold.co/1000x600?text=No+image</div>
+        <img style="margin: 10px 0px;" width="200" height="120" src="https://placehold.co/1000x600?text=No+image"/>
+        <button type="button" onclick="onDeleteBtnClick()">Delete</button>
+    </div>
+</div>
+
+
+
+<script src="secrets.js"></script>
+<script src="homework.js"></script>
+</body>
+</html>
