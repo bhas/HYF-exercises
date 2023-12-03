@@ -21,7 +21,7 @@ CREATE TABLE `meal` (
 
 CREATE TABLE `reservation` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  `number_of-guests` INT NOT NULL,
+  `number_of_guests` INT NOT NULL,
   `meal_id` int(10) unsigned NOT NULL,
   `created_date` DATE NOT NULL,
   `contact_phonenumber` varchar(50) NULL,
