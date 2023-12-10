@@ -15,7 +15,7 @@ FROM task
 INNER JOIN status ON task.status_id = status.id
 WHERE status.name = 'Done';
 
-# 4 Find all the tasks that are not marked as doneSELECT task.*
+# 4 Find all the tasks that are not marked as done
 SELECT task.*
 FROM task
 INNER JOIN status ON task.status_id = status.id
@@ -44,14 +44,14 @@ INNER JOIN status ON status.id = task.status_id;
 
 
 # 9 Get the name of each status, along with a count of how many tasks have that status
-SELECT status.name AS status_name, COUNT(*) AS task_count
+SELECT status.name AS status_name, COUNT(task.id) AS task_count
 FROM status
 LEFT JOIN task ON task.status_id = status.id
 GROUP BY status.id;
 
 # 10 Get the names of all statuses, sorted by the status with most tasks first
-SELECT status.name AS status_name, COUNT(*) AS task_count
+SELECT status.name AS status_name, COUNT(task.id) AS task_count
 FROM status
 LEFT JOIN task ON task.status_id = status.id
 GROUP BY status.id
-ORDER BY COUNT(*) DESC;
+ORDER BY COUNT(task.id) DESC;

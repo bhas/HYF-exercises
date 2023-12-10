@@ -1,6 +1,9 @@
+
 USE databases_lesson3;
 
--- Meal
+--------------------------------------------------------------------------
+---------------------------------  MEAL  ---------------------------------
+--------------------------------------------------------------------------
 
 -- 3.1 Get all the meals
 SELECt * 
@@ -27,7 +30,9 @@ WHERE id = 4;
 
 
 
--- Reservation
+--------------------------------------------------------------------------
+----------------------------  RESERVATION  -------------------------------
+--------------------------------------------------------------------------
 
 -- 3.6 Get all reservations
 SELECt * 
@@ -53,7 +58,9 @@ WHERE id = 5;
 
 
 
--- Review
+--------------------------------------------------------------------------
+------------------------------  REVIEW  ----------------------------------
+--------------------------------------------------------------------------
 
 -- 3.11 Get all reviews
 SELECt * 
@@ -78,35 +85,34 @@ DELETE FROM review
 WHERE id = 4;
 
 
-
--- Additional queries
+--------------------------------------------------------------------------
+-------------------------  ADDITIONAL QUERIES  ---------------------------
+--------------------------------------------------------------------------
 
 -- 3.15 Get meals that has a price smaller than a specific price fx 90
-SELECt * 
+SELECT * 
 FROM meal
 WHERE price < 90;
 
 -- 3.16 Get meals that still has available reservations
-SELECt *
+SELECT meal.id, meal.title, meal.max_reservations, SUM(reservation.number_of_guests) AS reservations
 FROM meal
-WHERE max_reservations > (
-    SELECT COALESCE(SUM(number_of_guests), 0) 
-    FROM reservation 
-    WHERE meal_id = meal.id
-);
+LEFT JOIN reservation ON meal.id = reservation.meal_id
+GROUP BY meal.id
+HAVING meal.max_reservations > COALESCE(SUM(reservation.number_of_guests), 0);
 
 -- 3.17 Get meals that partially match a title. Rød grød med will match the meal with the title Rød grød med fløde
-SELECt * 
+SELECT * 
 FROM meal
 WHERE title LIKE '%ghet%';
 
 -- 3.18 Get meals that has been created between two dates
-SELECt *
+SELECT *
 FROM meal
 WHERE created_date BETWEEN '2023-10-01' AND '2023-10-31';
 
 -- 3.19 Get only specific number of meals fx return only 5 meals
-SELECt *
+SELECT *
 FROM meal
 LIMIT 2;
 
@@ -114,10 +120,11 @@ LIMIT 2;
 SELECT meal.*
 FROM meal
 JOIN review ON meal.id = review.meal_id
-WHERE review.stars > 3;
+WHERE review.stars > 3
+GROUP BY meal.id;
 
 -- 3.21 Get reservations for a specific meal sorted by created_date
-SELECt *
+SELECT *
 FROM reservation
 WHERE meal_id = 3
 ORDER BY created_date;

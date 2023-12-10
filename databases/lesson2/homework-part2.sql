@@ -8,14 +8,14 @@ USE databases_lesson2_part2;
 
 SET NAMES utf8mb4;
 
-CREATE TABLE `class` (
+CREATE TABLE `Class` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `name` varchar(255) NOT NULL,
-  `begins` DATETIME NULL DEFAULT NULL,
-  `ends` DATETIME NULL DEFAULT NULL
+  `begins` DATE NULL DEFAULT NULL,
+  `ends` DATE NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-CREATE TABLE `student` (
+CREATE TABLE `Student` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `name` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
