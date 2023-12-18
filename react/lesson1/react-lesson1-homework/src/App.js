@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import TodoItem from './components/todoItem.js';
+import TodoList from './components/todoList.js';
 
 function App() {
   const tasks = [
@@ -20,10 +19,7 @@ function App() {
 
   return (
     <div class="app">
-      <h1>Todo List</h1>
-      <div>
-        {tasks.map(x => <TodoItem title={x.title} deadline={x.deadline}/>)}
-      </div>
+      <TodoList items={tasks}></TodoList>
     </div>
   );
 }
