@@ -1,0 +1,23 @@
+.app {
+  padding: 100px;
+  background-color: #282c34;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.todo-item {
+  width: 300px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+}
+
+.todo-title {
+  margin-left: 10px;
+}
+
+.date-label {
+  color: #4db2fe
+}
