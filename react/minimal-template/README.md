@@ -3,12 +3,12 @@ This is a minimal React app based on the the [create-react-app tool](https://cre
 
 ## Getting started
 1. Make sure you have [installed node](https://nodejs.org/en/download) on your PC
-1. Copy the `minimal-template folder` and replace the name with the name of your app.
+1. Copy the folder `minimal-template` and replace the name with the name of your app.
 2. Open a terminal and navigate to the newly created folder. 
     ``` shell
     cd <path to your folder>
     ``` 
-3. install the dependencies. This is only required initially.
+3. Run below command in the terminal to install the dependencies. This is only required initially.
     ``` shell
     npm install
     ```
