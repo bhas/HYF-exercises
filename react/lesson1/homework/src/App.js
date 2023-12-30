@@ -1,6 +1,4 @@
-import './App.css';
-
-function App() {
+export default function App() {
   return (
     <div class="app">
       <TodoList/>
@@ -40,7 +38,3 @@ function DateLabel(props) {
 function formatDate(date) {
   return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
 }
-
-
-
-export default App;
