@@ -4,7 +4,9 @@ export default function Counter() {
   const [counterState, setCounterState] = useState([0, 1]);
 
   const increment = () => {
-    // setCounterState((prev) => prev + 1);
+    const lastItems = counterState.slice(-2);
+    const newArray = [...counterState, lastItems[0] + lastItems[1]]
+    setCounterState(newArray);
   };
 
   return (

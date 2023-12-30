@@ -7,5 +7,19 @@ export default function Counter() {
     setCounterState((prev) => prev + 1);
   };
 
-  return <button onClick={increment}>{counterState}</button>;
+  const reset = () => {
+    setCounterState(0);
+  };
+
+  const double = () => {
+    setCounterState((prev) => prev * 2);
+  };
+
+  return <>
+    <div>
+      <button className={"counter-btn"} onClick={increment}>{counterState}</button>
+      <button className={"counter-btn"} onClick={reset}>Reset</button>
+      <button className={"counter-btn"} onClick={double}>Double</button>
+    </div>
+  </>
 }
