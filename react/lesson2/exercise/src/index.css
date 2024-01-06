@@ -1,0 +1,17 @@
+body {
+  padding: 20px;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.counter-container button {
+  margin: 10px 0px;
+}
+
+.counter-container input {
+  margin: 0px 10px;
+}
