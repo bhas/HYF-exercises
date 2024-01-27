@@ -1,0 +1,22 @@
+body {
+  padding: 20px;
+  font-size: 16pt;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 2rem;
+    color: grey;
+    margin: 5px;
+  }
+}

@@ -1,0 +1,43 @@
+import ThemedButton from "./components/ThemedButton";
+
+export default function App() {
+  return (
+    <>
+      <div className="title-container">
+        <h1>Welcome to ThemeHub!</h1>
+        <p>
+          Please browse our themes and choose the one you like the most.
+        </p>
+        <div>
+          <ThemedButton label="Browse All Themes" onClick={() => console.log("Clicked on Browse All Themes")} />
+        </div>
+      </div>
+
+
+      <h2>Light theme</h2>
+      <p>
+        You never go wrong with a classic light theme. It's easy on the eyes and it's the default theme for most applications.
+      </p>
+      <ThemedButton label="Get theme" onClick={() => console.log("Got light theme")} />
+      <ThemedButton label="Read more..." onClick={() => console.log("Read more about light theme")} />
+
+
+
+      <h2>Dark theme</h2>
+      <p>
+        Dark theme is a great choice for people who like to work late at night. It's easy on the eyes and it's the default theme for most applications.
+      </p>
+      <ThemedButton label="Get theme" onClick={() => console.log("Got dark theme")} />
+      <ThemedButton label="Read more..." onClick={() => console.log("Read more about dark theme")} />
+
+
+
+      <h2>Cat theme</h2>
+      <p>
+        Do you want to have a cat theme? We have a cat theme for you. This theme is for people who like cats.
+      </p>
+      <ThemedButton label="Get theme" onClick={() => console.log("Got cat theme")} />
+      <ThemedButton label="Read more..." onClick={() => console.log("Read more about cat theme")} />
+    </>
+  );
+}

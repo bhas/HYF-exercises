@@ -1,0 +1,17 @@
+
+
+.themed-btn {
+    margin: 5px;
+    font-size: 14pt;
+    color: white;
+    background-color: #007bff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 15px;
+
+}
+
+.themed-btn:hover {
+    background-color: #0069d9;
+        cursor: pointer;
+}
