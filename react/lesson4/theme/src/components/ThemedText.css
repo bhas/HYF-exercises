@@ -1,0 +1,14 @@
+
+
+.themed-text.light {
+  color: black;
+}
+
+.themed-text.dark {
+  color: white;
+}
+
+.themed-text.hacker {
+    font-family: monospace;
+    color: rgb(99, 237, 45);
+}

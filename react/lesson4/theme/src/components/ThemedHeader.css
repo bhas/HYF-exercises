@@ -4,5 +4,10 @@
 }
 
 .themed-header.dark {
-    color: lightblue;
+    color: lightgreen;
+}
+
+.themed-header.hacker {
+    font-family: monospace;
+    color: rgb(99, 237, 45);
 }

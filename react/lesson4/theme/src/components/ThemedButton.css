@@ -18,11 +18,57 @@
 
 .themed-btn.light.secondary {
     background: none;
-    border: solid 1px #333;
-    color: #333;
+    border: solid 1px #222;
+    color: #222;
 
     &:hover {
         background-color: rgba(0, 0, 0, 0.05);
+        cursor: pointer;
+    }
+}
+
+.themed-btn.dark.primary {
+    color: #222;
+    background-color: rgb(112, 218, 112);
+
+    &:hover {
+        background-color: rgb(95, 183, 95);
+        cursor: pointer;
+    }
+}
+
+.themed-btn.dark.secondary {
+    background: none;
+    border: solid 1px #ccc;
+    color: #ccc;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.05);
+        cursor: pointer;
+    }
+}
+
+.themed-btn.hacker.primary {
+    font-family: monospace;
+    color: rgb(99, 237, 45);
+    border: solid 2px rgb(99, 237, 45);
+    border-radius: 0px;
+    padding: 5px 15px;
+    background-color: black;
+
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+.themed-btn.hacker.secondary {
+    background: none;
+    padding: 5px 15px;
+    color: rgb(99, 237, 45);
+
+    &:hover {
+        text-decoration: underline;
         cursor: pointer;
     }
 }
