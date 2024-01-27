@@ -1,5 +1,3 @@
-
-
 .themed-btn {
     margin: 5px;
     font-size: 13pt;
@@ -8,7 +6,7 @@
     padding: 10px 15px;
 }
 
-.light.primary {
+.themed-btn.light.primary {
     color: white;
     background-color: #007bff;
 
@@ -18,13 +16,13 @@
     }
 }
 
-.light.secondary {
+.themed-btn.light.secondary {
     background: none;
-    border: solid 1px #007bff;
-    color: #007bff;
+    border: solid 1px #333;
+    color: #333;
 
     &:hover {
-        background-color: #eee;
+        background-color: rgba(0, 0, 0, 0.05);
         cursor: pointer;
     }
 }
