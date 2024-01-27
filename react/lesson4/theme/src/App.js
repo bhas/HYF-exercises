@@ -1,4 +1,5 @@
 import ThemedButton from "./components/ThemedButton";
+import ThemedHeader from "./components/ThemedHeader";
 
 export default function App() {
   return (
@@ -14,30 +15,30 @@ export default function App() {
       </div>
 
 
-      <h2>Light theme</h2>
+      <ThemedHeader title="Light Theme" />
       <p>
         You never go wrong with a classic light theme. It's easy on the eyes and it's the default theme for most applications.
       </p>
-      <ThemedButton label="Get theme" onClick={() => console.log("Got light theme")} />
-      <ThemedButton label="Read more..." onClick={() => console.log("Read more about light theme")} />
+      <ThemedButton label="Get Theme" onClick={() => console.log("Got light theme")} />
+      <ThemedButton label="Read more..." secondary onClick={() => console.log("Read more about light theme")} />
 
 
 
-      <h2>Dark theme</h2>
+      <ThemedHeader title="Dark Theme" />
       <p>
         Dark theme is a great choice for people who like to work late at night. It's easy on the eyes and it's the default theme for most applications.
       </p>
-      <ThemedButton label="Get theme" onClick={() => console.log("Got dark theme")} />
-      <ThemedButton label="Read more..." onClick={() => console.log("Read more about dark theme")} />
+      <ThemedButton label="Get Theme" onClick={() => console.log("Got dark theme")} />
+      <ThemedButton label="Read more..." secondary onClick={() => console.log("Read more about dark theme")} />
 
 
 
-      <h2>Cat theme</h2>
+      <ThemedHeader title="Cat Theme" />
       <p>
         Do you want to have a cat theme? We have a cat theme for you. This theme is for people who like cats.
       </p>
-      <ThemedButton label="Get theme" onClick={() => console.log("Got cat theme")} />
-      <ThemedButton label="Read more..." onClick={() => console.log("Read more about cat theme")} />
+      <ThemedButton label="Get Theme" onClick={() => console.log("Got cat theme")} />
+      <ThemedButton label="Read more..." secondary onClick={() => console.log("Read more about cat theme")} />
     </>
   );
 }

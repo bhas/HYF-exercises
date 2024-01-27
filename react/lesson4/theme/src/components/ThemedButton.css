@@ -2,16 +2,29 @@
 
 .themed-btn {
     margin: 5px;
-    font-size: 14pt;
-    color: white;
-    background-color: #007bff;
+    font-size: 13pt;
     border: 0px;
     border-radius: 5px;
     padding: 10px 15px;
-
 }
 
-.themed-btn:hover {
-    background-color: #0069d9;
+.light.primary {
+    color: white;
+    background-color: #007bff;
+
+    &:hover {
+        background-color: #0069d9;
         cursor: pointer;
+    }
+}
+
+.light.secondary {
+    background: none;
+    border: solid 1px #007bff;
+    color: #007bff;
+
+    &:hover {
+        background-color: #eee;
+        cursor: pointer;
+    }
 }
