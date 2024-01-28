@@ -1,6 +1,5 @@
 
 import { useContext } from "react";
-import "./ThemedButton.css";
 import { ThemeContext } from "../contexts/ThemeContext";
 
 export default function ThemedButton({ label, onClick, secondary}) {

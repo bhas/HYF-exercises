@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { ThemeContext } from "../contexts/ThemeContext";
-import "./ThemedText.css";
 
 export default function ThemedText({ text }) {
     const theme = useContext(ThemeContext);

@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import "./ThemedHeader.css";
 import { ThemeContext } from "../contexts/ThemeContext";
 
 export default function ThemedHeader({ title }) {
