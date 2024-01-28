@@ -5,10 +5,11 @@ import ThemedText from "./components/ThemedText";
 import { ThemeContext } from "./contexts/ThemeContext";
 import "./themes/lightTheme.css";
 import "./themes/darkTheme.css";
+import "./themes/hackerTheme.css";
 
 
 export default function App() {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
 
   return (
     <>
@@ -23,30 +24,30 @@ export default function App() {
           </div>
 
           <div class="themes-section">
-            <div className={"theme-container " + theme}>
-              {/* <ThemeContext.Provider value={'light'}> */}
+            <ThemeContext.Provider value={'light'}>
+              <div className={"theme-container light"}>
                 <ThemedHeader title="Light Theme" theme="light" />
                 <ThemedText text="You never go wrong with a classic light theme. It's easy on the eyes and it's the default theme for most applications." theme="light" />
                 <ThemedButton label="Use Light Theme" theme="light" onClick={() => setTheme("light")} />
-              {/* </ThemeContext.Provider> */}
-            </div>
+              </div>
+            </ThemeContext.Provider>
 
-            <div className={"theme-container " + theme}>
-              {/* <ThemeContext.Provider value={'dark'}> */}
+            <ThemeContext.Provider value={'dark'}>
+              <div className={"theme-container dark"}>
                 <ThemedHeader title="Dark Theme" theme="dark" />
                 <ThemedText text="Dark theme is a great choice for people who like to work late at night. It's easy on the eyes and it's the default theme for most applications." theme="dark" />
                 <ThemedButton label="Use Dark Theme" theme="dark" onClick={() => setTheme("dark")} />
-              {/* </ThemeContext.Provider> */}
-            </div>
-
-
-            {/* <div className="theme-container" style={{ backgroundColor: "#051505" }}>
-            <ThemeContext.Provider value={'hacker'}>
-            <ThemedHeader title="Hacker Theme" theme="hacker" />
-            <ThemedText text="Do you want to have a hacker theme? We have a cat theme for you. This theme is for people who like hacking." theme="hacker" />
-            <ThemedButton theme="hacker" label="Use Hacker Theme" onClick={() => setTheme("hacker")} />
+              </div>
             </ThemeContext.Provider>
-          </div> */}
+
+
+            <ThemeContext.Provider value={'hacker'}>
+              <div className={"theme-container hacker"}>
+                <ThemedHeader title="Hacker Theme" theme="hacker" />
+                <ThemedText text="Do you want to have a hacker theme? We have a cat theme for you. This theme is for people who like hacking." theme="hacker" />
+                <ThemedButton theme="hacker" label="Use Hacker Theme" onClick={() => setTheme("hacker")} />
+              </div>
+            </ThemeContext.Provider>
           </div>
 
           <div className={"statement-container " + theme}>
