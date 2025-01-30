@@ -3,11 +3,14 @@
 
 
 
-##  `12:15` PART 1 - INTRO
-* What is Javascript (JS)?
-* Why should I learn JS?
-* Adding JS to your HTML webpage
-* Console.log()
+#  `12:15` PART 1 - INTRO
+> [!TIP]
+> * What is Javascript (JS)?
+> * Why should I learn JS?
+> * Adding JS to your HTML webpage
+> * Console.log()
+
+
 
 ### Tasks (15 min)
 1. Create a HTML file `index.htm` with the headline: `Javascript 1 - Week 1`
@@ -50,8 +53,6 @@
 1. Your car got stolen 😟. Change the value of the relevant variables. 
 
 
-
-
 #### Bonus Tasks
 * Log out a *warning* message: `Watch out I am new at JS!`
 * Log out an *error* message: `Oh no! Something went wrong D:`
@@ -60,8 +61,8 @@
 
 # `13:45` PAUSE (30 min)
 
-## `14:15` PART 3 - Types
+# `14:15` PART 3 - Types
 
-## `15:00` PART 4 - Types
+# `15:00` PART 4 - Types
 
-## `15:45` Summery
+# `15:45` Summery
