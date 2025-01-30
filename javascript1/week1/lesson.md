@@ -4,11 +4,11 @@
 
 
 #  `12:15` PART 1 - INTRO
-> [!TIP]
+> [!IMPORTANT]
 > * What is Javascript (JS)?
 > * Why should I learn JS?
 > * Adding JS to your HTML webpage
-> * Console.log()
+> * `console.log()`
 
 
 
@@ -26,10 +26,11 @@
 
 
 # `13:00` PART 2 - VARIABLES
-* What are variables?
-* Declaring variables using `const` and `let`
-* Assigning values
-* `null` and `undefined` 
+> [!IMPORTANT]
+> * What are variables?
+> * Declaring variables using `const` and `let`
+> * Assigning values
+> * `null` and `undefined` 
 
 ### Tasks (30 min)
 1. Log a message: `===== PART 2 =====`
@@ -54,8 +55,19 @@
 
 
 #### Bonus Tasks
-* Log out a *warning* message: `Watch out I am new at JS!`
-* Log out an *error* message: `Oh no! Something went wrong D:`
+* Add comments to you code explaining exercise 6-8
+* Fix this code
+    ```js
+    let fn = 'Britta';
+    const ln = 'Thomson';
+    let ysinDk = '8';
+    const money = 2000;
+    Console.log(Britta just won the lottery);
+    money: '200,000'
+
+    neighbor = 'Martin';
+    Console.log(Martin, is her neighbor);
+    ```
 
 
 
