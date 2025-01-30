@@ -22,7 +22,7 @@
 * Log out an *error* message: `Oh no! Something went wrong D:`
 
 
-## `13:00` PART 2 - VARIABLES
+# `13:00` PART 2 - VARIABLES
 * What are variables?
 * Declaring variables using `const` and `let`
 * Assigning values
@@ -31,18 +31,18 @@
 ### Tasks (30 min)
 1. Log a message: `===== PART 2 =====`
 1. Create variables about youself:
-   * first name
-   * last name
+   * First name
+   * Last name
    * height in cm
    * Number of kids
    * Name of youngest kid
    * Whether you own a car
    * Car model
    * Whether you own a pet
-   * name of pet
+   * Pet name
    * type of pet
    * Age of pet
-1. Log: `Hello, my name is <full name> and I am learning JS`
+1. Log: `Hello, my name is <first name> and I am learning JS`
 1. Log all the above info with fitting labels such as `First name: Bjorn`.
 1. *Declare* a variable for your date of death. Do not assign any value.
 1. You won a new car 🤩. Change the value of the relevant variables.
@@ -58,14 +58,10 @@
 
 
 
-## `13:45` PAUSE (30 min)
+# `13:45` PAUSE (30 min)
 
-14:15
+## `14:15` PART 3 - Types
 
-=== Part 3 ===
+## `15:00` PART 4 - Types
 
-15:00
-
-=== Part 4 ===
-
-15:45
+## `15:45` Summery
