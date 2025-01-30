@@ -55,18 +55,25 @@
 
 
 #### Bonus Tasks
-* Add comments to you code explaining exercise 6-8
+* Add comments to you code explaining what happened in task 6-8 which caused us to change the values
 * Fix this code
     ```js
     let fn = 'Britta';
     const ln = 'Thomson';
     let ysinDk = '8';
     const money = 2000;
-    Console.log(Britta just won the lottery);
+    Console.log(Britta, Thomson, "is her name");
+    ```
+* Fix this code
+    ```js
+    const money = 2000;
+    Console.log("I won the lottery);
     money: '200,000'
-
+    ```
+* Fix this code
+    ```js
     neighbor = 'Martin';
-    Console.log(Martin, is her neighbor);
+    Console.log(Martin, is the neighbor);
     ```
 
 
@@ -74,7 +81,102 @@
 # `13:45` PAUSE (30 min)
 
 # `14:15` PART 3 - Types
+> [!IMPORTANT]
+> * What are types and why should I care?
+> * Simple types
+> * Arrays
+> * `typeof`
 
-# `15:00` PART 4 - Types
 
-# `15:45` Summery
+
+### Tasks (30 min)
+1. Log: `===== PART 3 =====`
+1. With a classmate, guess what is logged. Afterwards, check if you guessed correctly.
+    ```js
+    console.log(typeof 3);
+    console.log(typeof -33);
+    console.log(typeof '3');
+    const threeConst = 3;
+    console.log(threeConst);
+    let threeLet = 3;
+    console.log(threeLet);
+    console.log(typeof 'console.log("console.log(console.log(""))")');
+    const names = ['benjamin', 'Christopher'];
+    console.log(typeof names[0]);
+    console.log(typeof names);
+    console.log(typeof true);
+    ```
+1. Fix the errors:
+    ```js
+    const name = 'benjamin';
+    name = 'benjamin-better';
+
+    const pizzaPrice = 78;
+    const pizzaPriceDiscounted = pizzaprice - 10;
+
+    const users = ['peter', 'Johnny', 'Børge'];
+    const lastUser = users[3];
+    ```
+
+#### Bonus Tasks
+* Insert the code `console.log(Am I working)`. Make the code work.
+* Log out a *warning* message: `Watch out I am new at JS!`
+* Log out an *error* message: `Oh no! Something went wrong D:`
+
+
+
+# `15:00` PART 4 - Operators
+> [!IMPORTANT]
+> * Comparison
+>    * Equals / not equal
+>    * Less than / greater than
+> * Arithmetic
+>    * Addition + (text, number)
+>    * subtraction - (number)
+>    * multiplication * (number)
+>    * division / (number)
+>    * Remainder % (number)
+
+
+
+### Tasks (30 min)
+1. Log: `===== PART 4 =====`
+1. With a classmate, guess what is logged. Afterwards, check if you guessed correctly.
+    ```js
+    const employee = 'Carl';
+    const salary = 200;
+    const expenses = 20;
+    console.log(30 + 30 / 3);
+    console.log((10 + 10) * 2);
+    console.log(10 % 4);
+    console.log(salary === "200");
+    console.log(salary === 200);
+    console.log(salary == "200");
+    console.log(salary == 200);
+    console.log(salary - expenses);
+    console.log(salary < expenses);
+    console.log(salary >= salary);
+    ```
+1. Create an array with 3 strings, three numbers and three booleans
+1. Calculate how many seconds there are in a year
+1. Calculate how many days you have been alive if you are 36 years and 92 days old
+1. Store an amount of USD. Calculate how much it is in DKK. Also calculate what it is in GBP.
+
+#### Bonus Tasks
+* Guess what is logged. Afterwards, check if you guessed correctly.
+    ```js
+    const text = 'Carl';
+    const number = 200;
+    console.log(text + text);
+    console.log(number * text);
+    console.log(text * 2);
+    console.log(text === "Carl");
+    console.log(text + number);
+    console.log(typeof (text + number));
+    ```
+* Calculate the amount of money you would have after 3 years if you start with 5000 DKK and get a 5% interest per year.
+* Calculate if a given number is odd or even
+
+
+
+# `15:45` QUESTIONS
