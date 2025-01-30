@@ -4,24 +4,19 @@
 
 
 ##  `12:15` PART 1
-What is Javascript?
-
-Why should I learn it?
-
-Adding JS to your HTML webpage
-
-Console log
+* What is Javascript (JS)?
+* Why should I learn JS?
+* Adding JS to your HTML webpage
+* Console.log()
 
 
 
-#### TASKS (10 min)
-<details> 
-<summary>View Tasks</summary>
+### Tasks (10 min)
 * This is some value
 * so is this
-
-</details>
-
+### Bonus Tasks
+* This is some value
+* so is this
 
 
 ## `13:00`  Part 2 ===
