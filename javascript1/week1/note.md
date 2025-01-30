@@ -38,8 +38,9 @@ memory
 * null
 * undefined
 * array
-* (object)
 * typeof
+
+
 
 
 ## Operators
