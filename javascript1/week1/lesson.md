@@ -55,7 +55,6 @@
 
 
 #### Bonus Tasks
-* Add comments to you code explaining what happened in task 6-8 which caused us to change the values
 * Fix this code
     ```js
     let fn = 'Britta';
@@ -75,12 +74,12 @@
     neighbor = 'Martin';
     Console.log(Martin, is the neighbor);
     ```
-
+* Add comments to you code explaining what happened in task 6-8 which caused us to change the values
 
 
 # `13:45` PAUSE (30 min)
 
-# `14:15` PART 3 - Types
+# `14:15` PART 3 - TYPES
 > [!IMPORTANT]
 > * What are types and why should I care?
 > * Simple types
@@ -125,17 +124,17 @@
 
 
 
-# `15:00` PART 4 - Operators
+# `15:00` PART 4 - OPERATORS
 > [!IMPORTANT]
 > * Comparison
 >    * Equals / not equal
 >    * Less than / greater than
 > * Arithmetic
->    * Addition + (text, number)
->    * subtraction - (number)
->    * multiplication * (number)
->    * division / (number)
->    * Remainder % (number)
+>    * Addition `+`
+>    * subtraction `-`
+>    * multiplication `*`
+>    * division `/`
+>    * Remainder `%`
 
 
 
@@ -161,6 +160,7 @@
 1. Calculate how many seconds there are in a year
 1. Calculate how many days you have been alive if you are 36 years and 92 days old
 1. Store an amount of USD. Calculate how much it is in DKK. Also calculate what it is in GBP.
+1. Store an array of 3 amounts of money. Calculate the average amount of them.
 
 #### Bonus Tasks
 * Guess what is logged. Afterwards, check if you guessed correctly.
