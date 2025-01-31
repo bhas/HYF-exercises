@@ -29,7 +29,7 @@
 > [!IMPORTANT]
 > * What are variables?
 > * Declaring variables using `const` and `let`
-> * Assigning values: `strings`, `numbers`, and `boolean`
+> * Assigning values: `text`, `numbers`, and `yes/no`
 > * `null` and `undefined` 
 
 ### Tasks (30 min)
