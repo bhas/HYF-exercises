@@ -19,8 +19,10 @@
 1. Log a message *after*: `I am learning Javascript`
 1. Log a message *before*: `===== PART 1 =====`
 <details>
-<summary>Click to see screenshot</summery>
+<summary>Click to see screenshot</summary>
+
 ![result-part1](./imgs/p1-1.jpg)
+
 </details>
    
 
