@@ -18,7 +18,11 @@
 1. Create a JS file `part1.js` which logs `Hello World!` and include it in your HTML.
 1. Log a message *after*: `I am learning Javascript`
 1. Log a message *before*: `===== PART 1 =====`
-   ![Console output - part 1](./imgs/p1-1.jpg =400x)
+<details>
+<summary>Click to see screenshot</summery>
+![result-part1](./imgs/p1-1.jpg)
+</details>
+   
 
 #### Bonus Tasks
 * Make the code work: 
