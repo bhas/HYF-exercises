@@ -1,6 +1,6 @@
 
 
-
+![pizza banner](./imgs/banner.jpg)
 
 
 #  `12:15` PART 1 - INTRO
@@ -43,51 +43,68 @@
 > * What are variables?
 > * Declaring variables using `const` and `let`
 > * Assigning values: `text`, `numbers`, and `yes/no`
-> * `null` and `undefined` 
+> * `null` and `undefined`
 
 ### Tasks (30 min)
-1. Log a message: `===== PART 2 =====`
-1. Create variables about youself:
-   * First name
-   * Last name
-   * height in cm
-   * Number of kids
-   * Name of youngest kid
-   * Whether you own a car
-   * Car model
-   * Whether you own a pet
-   * Pet name
-   * type of pet
-   * Age of pet
-1. Log: `Hello, my name is <first name> and I am learning JS`
-1. Log all the above info with fitting labels such as `First name: Bjorn`.
+Let's pretend we were tasked to develop a site for a local pizzaria. We will start by first storing their information in some variables.
+1. Add a new file `part2.js` which logs: `===== PART 2 =====` and include it in your HTML below the other
+1. Improve the existing code:
+```js
+// Info about us
+const Owner = 'Carlo';
+const r = 'Bella Napoli';
+const DESCRIPTION = 'Experience the true Italian cuisine!';
+const Nom Nom Street = 'Nom Nom Street 3, 2300 Copenhagen';
+const opnTm = '10:00';
+const clsTm = '23:00';
+Console.log('Welcome to' r);
+Console.log(description);
+console.log('Opening hours:', '10', -, '23');
+```
+1. They send us this additional information about them below. Lets try to extract the key informations into some variables too:
+   > At Bella Napoli you can eat great italian food. We have vegan options and don't allow neither dogs nor smoking. Contact us on +45 12 34 56 78 or bella-napoli@hyf.com
+1. Now we need a menu. Store some variables to capture the below options and their prices:
+   * `Margherita Pizza` 90 DKK
+   * `Pesto Pizza` 120 DKK
+   * `Pepperoni Pizza` 120 DKK
+   * `BBQ Chicken Pizza` 130 DKK
+   * `White Pizza` 110 DKK
+1. Print out the menu so it looks like below
+<details>
+<summary>📸 Click to see screenshot</summary>
+
+![result-part1](./imgs/p2-1.jpg)
+</details>
+
+
+
+
+
+
 1. *Declare* a variable for your date of death. Do not assign any value.
 1. You won a new car 🤩. Change the value of the relevant variables.
 1. You just got a new pet ❤️. Change the value of the relevant variables.
 1. Your car got stolen 😟. Change the value of the relevant variables. 
 
 
+
+bonus 
+research (single `)
+
+
+change values
+change values
+
+
+
 #### Bonus Tasks
-* Fix this code
+* The owner told us that they will add a new pizza: `Meat Lover's Pizza`. However, it seems like our code doesn't work. How can we use `'` in a text? 🤔❓
     ```js
-    let fn = 'Britta';
-    const ln = 'Thomson';
-    let ysinDk = '8';
-    const money = 2000;
-    Console.log(Britta, Thomson, "is her name");
+    const pizza6 = 'Meat Lover's Pizza';
+    const pizza6Price = 135;
+    // TODO log pizza
     ```
-* Fix this code
-    ```js
-    const money = 2000;
-    Console.log("I won the lottery);
-    money: '200,000'
-    ```
-* Fix this code
-    ```js
-    neighbor = 'Martin';
-    Console.log(Martin, is the neighbor);
-    ```
-* Add comments to you code explaining what happened in task 6-8 which caused us to change the values
+* The restaurant want to change their openings hours over the winter to `12:00 - 21:00`. Update the variables and log it as a *warning*: `OBS! Our new opening hours are: 12:00 - 21:00`
 
 
 # `13:45` PAUSE (30 min)
