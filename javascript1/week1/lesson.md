@@ -19,21 +19,24 @@
 1. Log a message *after*: `I am learning Javascript`
 1. Log a message *before*: `===== PART 1 =====`
 <details>
-<summary>Click to see screenshot</summary>
+<summary>📸 Click to see screenshot</summary>
 
 ![result-part1](./imgs/p1-1.jpg)
-
 </details>
    
 
 #### Bonus Tasks
 * Make the code work: 
     ```js
-    console.log(Am I working)
+    console.log(Am I working?)
     ```
 * Log out a *warning* message: `Watch out I am new at JS!`
 * Log out an *error* message: `Oh no! Something went wrong D:`
+<details>
+<summary>📸 Click to see screenshot</summary>
 
+![result-part1](./imgs/p1-2.jpg)
+</details>
 
 # `13:00` PART 2 - VARIABLES
 > [!IMPORTANT]
