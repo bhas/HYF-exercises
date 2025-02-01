@@ -12,15 +12,19 @@
 
 
 
-### Tasks (15 min)
+### Tasks (20 min)
 1. Create a HTML file `index.htm` with the headline: `Javascript 1 - Week 1`
 1. Open the page and the *Developer Tools* and confirm the console output is empty.
-1. Create a JS file `tasks.js` which logs `Hello World` and include it in your HTML.
-1. Log a message *after*: `Hello to you too`
+1. Create a JS file `part1.js` which logs `Hello World!` and include it in your HTML.
+1. Log a message *after*: `I am learning Javascript`
 1. Log a message *before*: `===== PART 1 =====`
+   ![Console output - part 1](./imgs/p1-1.jpg =400x)
 
 #### Bonus Tasks
-* Insert the code `console.log(Am I working)`. Make the code work.
+* Make the code work: 
+    ```js
+    console.log(Am I working)
+    ```
 * Log out a *warning* message: `Watch out I am new at JS!`
 * Log out an *error* message: `Oh no! Something went wrong D:`
 
