@@ -196,7 +196,12 @@ console.log(salary >= salary);
 2. Now we need to further expand on our price calculator. Lets first add a new order: `1, 2, 2` and calculate its total price without any discounts.
 3. You get 20 % discount on the **first pizza** you order. Calculate the discount and the new discounted price and log it.
 4. Let's add another variable `addPlasticBag`. It cost additional 5 DKK to add a plastic bag.
-5. Now we also need to add the VAT which is 25 % on top of the discounted price. 
+5. Now we also need to add the VAT which is 25 % on top of the discounted price.
+<details>
+<summary>📸 Click to see screenshot</summary>
+
+![result-part4](./imgs/p4-1.jpg)
+</details>
 
 Let's test that the calculator works. We expect the following final prices:
    * order = `3, 4, 4`, with plastic bag = 421.25 DKK
