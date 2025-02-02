@@ -36,7 +36,8 @@ console.log('Total price:', totalPrice.toFixed(2), 'DKK');
 // ===== BONUS TASKS =====
 
 // task 1
-const discountedPrice = prices[order[0]] * 0.8 + prices[order[1]] * 0.8 + prices[order[2]] + prices[order[3]] + prices[order[4]];
+const discountAmount = prices[order[0]] * 0.2;
+const discountedPrice = totalPrice - discountAmount;
 console.log('Discounted price:', discountedPrice.toFixed(2), 'DKK');
 
 // task 2
@@ -62,4 +63,3 @@ console.log('#2', pizzas[1], '-', prices[1], 'DKK');
 console.log('#3', pizzas[2], '-', prices[2], 'DKK');
 console.log('#4', pizzas[3], '-', prices[3], 'DKK');
 console.log('#5', pizzas[4], '-', prices[4], 'DKK');
-

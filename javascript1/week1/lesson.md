@@ -101,8 +101,12 @@ console.log('Opening hours:', '10', -, '23');
 
 
 ### Tasks (20 min)
-* Class exercise:
+
+<details>
+<summary>Class exercise</summary>
+
 ```js
+// guess what is logged from each line
 console.log(typeof 3);
 console.log(typeof -33);
 console.log(typeof '3');
@@ -115,7 +119,10 @@ const names = ['benjamin', 'Christopher'];
 console.log(typeof names[0]);
 console.log(typeof names);
 console.log(typeof true);
+console.log(typeof names[2]);
 ```
+</details>
+
 
 1. Add a new file `part3.js` which logs: `===== PART 3 =====` and include it in your HTML below the others
 2. The owner wants to change the name of the restaurant to `Carlo's Pizzaria`.
@@ -140,7 +147,7 @@ owner = 'Maria'
 
 
 #### Bonus Tasks
-1. You get 20 % discount on the **first 2 pizzas** you order. Calculate a new discounted price and log it. 
+1. You get 20 % discount on the **first pizza** you order. Calculate a new discounted price and log it. 
 2. Add another array which holds that the `Margherita Pizza`, `Pesto Pizza`, and `White pizza` are vegetarian. Change the name of the pizza to append `(v)` after the name if it is vegetarian. Log the updated menu.
 <details>
 <summary>📸 Click to see screenshot</summary>
@@ -164,43 +171,40 @@ owner = 'Maria'
 
 
 ### Tasks (30 min)
-1. Log: `===== PART 4 =====`
-1. With a classmate, guess what is logged. Afterwards, check if you guessed correctly.
-    ```js
-    const employee = 'Carl';
-    const salary = 200;
-    const expenses = 20;
-    console.log(30 + 30 / 3);
-    console.log((10 + 10) * 2);
-    console.log(10 % 4);
-    console.log(salary === "200");
-    console.log(salary === 200);
-    console.log(salary == "200");
-    console.log(salary == 200);
-    console.log(salary - expenses);
-    console.log(salary < expenses);
-    console.log(salary >= salary);
-    ```
-1. Create an array with 3 strings, three numbers and three booleans
-1. Calculate how many seconds there are in a year
-1. Calculate how many days you have been alive if you are 36 years and 92 days old
-1. Store an amount of USD. Calculate how much it is in DKK. Also calculate what it is in GBP.
-1. Store an array of 3 amounts of money. Calculate the average amount of them.
+<details>
+<summary>Class exercise</summary>
+
+```js
+// guess what is logged from each line
+const employee = 'Carl';
+const salary = 200;
+const expenses = 20;
+console.log(30 + 30 / 3);
+console.log((10 + 10) * 2);
+console.log(10 % 4);
+console.log(salary === "200");
+console.log(salary === 200);
+console.log(salary == "200");
+console.log(salary == 200);
+console.log(salary - expenses);
+console.log(salary < expenses);
+console.log(salary >= salary);
+```
+</details>
+
+1. Add a new file `part4.js` which logs: `===== PART 4 =====` and include it in your HTML below the others
+2. Now we need to further expand on our price calculator. Lets first add a new order: `1, 2, 2` and calculate its total price without any discounts.
+3. You get 20 % discount on the **first pizza** you order. Calculate the discount and the new discounted price and log it.
+4. Let's add another variable `addPlasticBag`. It cost additional 5 DKK to add a plastic bag.
+5. Now we also need to add the VAT which is 25 % on top of the discounted price. 
+
+Let's test that the calculator works. We expect the following final prices:
+   * order = `3, 4, 4`, with plastic bag = 421.25 DKK
+   * order = `0, 0, 0`, no plastic bag = 315.00 DKK
 
 #### Bonus Tasks
-* Guess what is logged. Afterwards, check if you guessed correctly.
-    ```js
-    const text = 'Carl';
-    const number = 200;
-    console.log(text + text);
-    console.log(number * text);
-    console.log(text * 2);
-    console.log(text === "Carl");
-    console.log(text + number);
-    console.log(typeof (text + number));
-    ```
-* Calculate the amount of money you would have after 3 years if you start with 5000 DKK and get a 5% interest per year.
-* Calculate if a given number is odd or even
+1. Extend the calculation with another feature, for example:
+   * A 50 DKK delivery fee. Delivery is free for orders over 300 DKK.
 
 
 
