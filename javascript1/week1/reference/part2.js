@@ -6,10 +6,11 @@ console.log('===== PART 2 =====');
 
 
 // task 2
-const owner = 'Carlo';
-const restaurant = 'Bella Napoli';
+let owner = 'Carlo';
+let restaurant = 'Bella Napoli';
+let specialOffer = "Pesto Pizza";
 const description = 'Experience the true Italian cuisine!';
-const address = 'Mannerheimintie 1, 00100 Helsinki';
+const address = 'Nom Nom Street 3, 2300 Copenhagen';
 let openingTime = '10:00';
 let closingTime = '23:00';
 console.log('Welcome to', restaurant);
@@ -43,6 +44,8 @@ console.log('#3', pizza3, '-', pizza3Price, 'DKK');
 console.log('#4', pizza4, '-', pizza4Price, 'DKK');
 console.log('#5', pizza5, '-', pizza5Price, 'DKK');
 
+// task 6
+specialOffer = null;
 
 // ===== BONUS TASKS =====
 const pizza6 = 'Meat Lover\'s Pizza';

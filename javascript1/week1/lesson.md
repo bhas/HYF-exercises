@@ -14,10 +14,10 @@
 
 ### Tasks (20 min)
 1. Create a HTML file `index.htm` with the headline: `Javascript 1 - Week 1`
-1. Open the page and the *Developer Tools* and confirm the console output is empty.
-1. Create a JS file `part1.js` which logs `Hello World!` and include it in your HTML.
-1. Log a message *after*: `I am learning Javascript`
-1. Log a message *before*: `===== PART 1 =====`
+2. Open the page and the *Developer Tools* and confirm the console output is empty.
+3. Create a JS file `part1.js` which logs `Hello World!` and include it in your HTML.
+4. Log a message *after*: `I am learning Javascript`
+5. Log a message *before*: `===== PART 1 =====`
 <details>
 <summary>📸 Click to see screenshot</summary>
 
@@ -26,12 +26,12 @@
    
 
 #### Bonus Tasks
-* Make the code work: 
+1. Make the code work: 
     ```js
     console.log(Am I working?)
     ```
-* Log out a *warning* message: `Watch out I am new at JS!`
-* Log out an *error* message: `Oh no! Something went wrong D:`
+2. Log out a *warning* message: `Watch out I am new at JS!`
+3. Log out an *error* message: `Oh no! Something went wrong D:`
 <details>
 <summary>📸 Click to see screenshot</summary>
 
@@ -48,63 +48,46 @@
 ### Tasks (30 min)
 Let's pretend we were tasked to develop a site for a local pizzaria. We will start by first storing their information in some variables.
 1. Add a new file `part2.js` which logs: `===== PART 2 =====` and include it in your HTML below the other
-1. Improve the existing code:
+2. Improve the existing code:
 ```js
 // Info about us
 const Owner = 'Carlo';
 const r = 'Bella Napoli';
-const DESCRIPTION = 'Experience the true Italian cuisine!';
+const SPECIAL_OFFER! = "Pesto Pizza";
+const desc = 'Experience the true Italian cuisine!';
 const Nom Nom Street = 'Nom Nom Street 3, 2300 Copenhagen';
 const opnTm = '10:00';
 const clsTm = '23:00';
 Console.log('Welcome to' r);
-Console.log(description);
+Console.log(desc);
 console.log('Opening hours:', '10', -, '23');
 ```
-1. They send us this additional information about them below. Lets try to extract the key informations into some variables too:
-   > At Bella Napoli you can eat great italian food. We have vegan options and don't allow neither dogs nor smoking. Contact us on +45 12 34 56 78 or bella-napoli@hyf.com
-1. Now we need a menu. Store some variables to capture the below options and their prices:
+3. They send us this additional information about them below. Lets try to extract the key informations into some variables too:
+   > At Bella Napoli you can eat great italian food. We have vegan options but unfortunately you're not allowed to bring dogs or smoke. Contact us on +45 12 34 56 78 or write us an email at bella-napoli@hyf.com
+4. Now we need a menu. Store some variables to capture the below options and their prices:
    * `Margherita Pizza` 90 DKK
    * `Pesto Pizza` 120 DKK
    * `Pepperoni Pizza` 120 DKK
    * `BBQ Chicken Pizza` 130 DKK
    * `White Pizza` 110 DKK
-1. Print out the menu so it looks like below
+5. Print out the menu so it looks like below
 <details>
 <summary>📸 Click to see screenshot</summary>
 
 ![result-part1](./imgs/p2-1.jpg)
 </details>
 
-
-
-
-
-
-1. *Declare* a variable for your date of death. Do not assign any value.
-1. You won a new car 🤩. Change the value of the relevant variables.
-1. You just got a new pet ❤️. Change the value of the relevant variables.
-1. Your car got stolen 😟. Change the value of the relevant variables. 
-
-
-
-bonus 
-research (single `)
-
-
-change values
-change values
-
+6. The owner decided to temporarily remove the special offer. Let's update accordingly.
 
 
 #### Bonus Tasks
-* The owner told us that they will add a new pizza: `Meat Lover's Pizza`. However, it seems like our code doesn't work. How can we use `'` in a text? 🤔❓
+1. The owner told us that they will add a new pizza: `Meat Lover's Pizza`. However, it seems like our code doesn't work. How can we use `'` in a text? 🤔❓
     ```js
     const pizza6 = 'Meat Lover's Pizza';
     const pizza6Price = 135;
     // TODO log pizza
     ```
-* The restaurant want to change their openings hours over the winter to `12:00 - 21:00`. Update the variables and log it as a *warning*: `OBS! Our new opening hours are: 12:00 - 21:00`
+2. The owner want to temporarily change the openings hours to `12:00 - 21:00`. Update the variables and log it as a *warning*: `OBS! Our new opening hours are: 12:00 - 21:00`
 
 
 # `13:45` PAUSE (30 min)
@@ -117,41 +100,53 @@ change values
 > * `typeof`
 
 
+### Tasks (20 min)
+* Class exercise:
+```js
+console.log(typeof 3);
+console.log(typeof -33);
+console.log(typeof '3');
+const threeConst = 3;
+console.log(threeConst);
+let threeLet = 3;
+console.log(threeLet);
+console.log(typeof 'console.log("console.log(console.log(""))")');
+const names = ['benjamin', 'Christopher'];
+console.log(typeof names[0]);
+console.log(typeof names);
+console.log(typeof true);
+```
 
-### Tasks (30 min)
-1. Log: `===== PART 3 =====`
-1. With a classmate, guess what is logged. Afterwards, check if you guessed correctly.
-    ```js
-    console.log(typeof 3);
-    console.log(typeof -33);
-    console.log(typeof '3');
-    const threeConst = 3;
-    console.log(threeConst);
-    let threeLet = 3;
-    console.log(threeLet);
-    console.log(typeof 'console.log("console.log(console.log(""))")');
-    const names = ['benjamin', 'Christopher'];
-    console.log(typeof names[0]);
-    console.log(typeof names);
-    console.log(typeof true);
-    ```
-1. Fix the errors:
-    ```js
-    const name = 'benjamin';
-    name = 'benjamin-better';
+1. Add a new file `part3.js` which logs: `===== PART 3 =====` and include it in your HTML below the others
+2. The owner wants to change the name of the restaurant to `Carlo's Pizzaria`.
+```js
+owner = 'Carlo';
+// calculate the new name of the restaurant and log it
 
-    const pizzaPrice = 78;
-    const pizzaPriceDiscounted = pizzaprice - 10;
+// change the name of the owner and log the restaurant name again. What happened to the name of the restaurant and why?
+owner = 'Maria'
+```
+3. Lets take the pizzas from the previous exercises, but this time try to store them all using two arrays: `pizzas` and `pizzaPrices` where the index of a pizza corresponds to the index of the prices.
+4. Log the menu as before but looking up the values in the arrays
+5. Let's add a price calculator. First lets store an order of 5 pizzas in a new array. Each order should just be the index of the pizza.
+6. Calculate the total price of an order by adding the prices of each individual pizza. i.e. the order `0, 1, 1, 2, 4` should add up to 560 DKK. Log the order and total price like below. Hmm, how can we write the total price with 2 decimals? 🤔❓
+<details>
+<summary>📸 Click to see screenshot</summary>
 
-    const users = ['peter', 'Johnny', 'Børge'];
-    const lastUser = users[3];
-    ```
+![result-part3](./imgs/p3-1.jpg)
+</details>
+
+
+
 
 #### Bonus Tasks
-* Insert the code `console.log(Am I working)`. Make the code work.
-* Log out a *warning* message: `Watch out I am new at JS!`
-* Log out an *error* message: `Oh no! Something went wrong D:`
+1. You get 20 % discount on the **first 2 pizzas** you order. Calculate a new discounted price and log it. 
+2. Add another array which holds that the `Margherita Pizza`, `Pesto Pizza`, and `White pizza` are vegetarian. Change the name of the pizza to append `(v)` after the name if it is vegetarian. Log the updated menu.
+<details>
+<summary>📸 Click to see screenshot</summary>
 
+![result-part3](./imgs/p3-2.jpg)
+</details>
 
 
 # `15:00` PART 4 - OPERATORS
