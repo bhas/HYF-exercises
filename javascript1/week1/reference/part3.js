@@ -8,7 +8,7 @@ owner = 'Carlo';
 restaurant = owner + '\'s Pizza';
 console.log(restaurant);
 owner = 'Maria';
-console.log(restaurant);
+console.log(restaurant); // name of the restaurant is not changed even though the owner is changed
 
 
 // task 3

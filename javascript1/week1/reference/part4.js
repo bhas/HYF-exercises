@@ -3,7 +3,7 @@
 console.log('===== PART 4 =====');
 
 // task 2
-const order2 = [3, 4, 4];
+const order2 = [1, 2, 2];
 let totalPrice2 = prices[order2[0]] + prices[order2[1]] + prices[order2[2]];
 console.log('Order:', order2);
 console.log('Total price:', totalPrice2.toFixed(2), 'DKK');
@@ -25,7 +25,7 @@ if (addPlasticBag) {
 
 // Bonus task 1
 let deliveryFee = 0;
-if (totalPrice2 > 400) {
+if (totalPrice2 <= 300) {
   deliveryFee = 50;
   console.log('Delivery fee:', deliveryFee.toFixed(2), 'DKK');
 }

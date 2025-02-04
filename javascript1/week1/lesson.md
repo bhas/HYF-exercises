@@ -133,9 +133,9 @@ owner = 'Carlo';
 owner = 'Maria'
 ```
 3. Lets take the pizzas from the previous exercises, but this time try to store them all using two arrays: `pizzas` and `pizzaPrices` where the index of a pizza corresponds to the index of the prices.
-4. Log the menu as before but looking up the values in the arrays. (Hint: you can look up the name of a pizza like: `pizzas[order[0]]`) 
+4. Log the menu as before but looking up the values in the arrays.
 5. Let's add a price calculator. First lets store an order of 5 pizzas in a new array. Each order should just be the index of the pizza.
-6. Calculate the total price of an order by adding the prices of each individual pizza. i.e. the order `0, 1, 1, 2, 4` should add up to 560 DKK. Log the order and total price like below. Hmm, how can we write the total price with 2 decimals? 🤔❓
+6. Calculate the total price of an order by adding the prices of each individual pizza. i.e. the order `0, 1, 1, 2, 4` should add up to 560 DKK. (Hint: you can look up the name of a pizza like: `pizzas[order[0]]`). Log the order and total price like below. Hmm, how can we write the total price with 2 decimals? 🤔❓
 <details>
 <summary>📸 Click to see screenshot</summary>
 
@@ -203,8 +203,9 @@ console.log(salary >= salary);
 </details>
 
 Let's test that the calculator works. We expect the following final prices:
+   * order = `1, 2, 2`, with plastic bag = 433.75 DKK
    * order = `3, 4, 4`, with plastic bag = 421.25 DKK
-   * order = `0, 0, 0`, no plastic bag = 315.00 DKK
+   * order = `0, 0, 0`, no plastic bag = 383.75 DKK
 
 #### Bonus Tasks
 1. Extend the calculation with another feature, for example:
