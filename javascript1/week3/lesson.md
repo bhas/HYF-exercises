@@ -97,7 +97,7 @@
 
 ### Tasks
 
-1. Visualize the call stack for this code and check if you guess correctly
+1. Visualize the call stack for this code and check if you guessed correctly
 
 ```js
 function bookPlaneTickets() {
@@ -154,7 +154,10 @@ planTrip();
 
 ### Tasks
 
-1. Make an object named `classRoom` which has a name, and a number of students of some fictional students. Imagine each student is an object containing a full name, age, and two other properties of your choice
+1. Make an object named `classRoom` which has a name, and a number of students. Imagine each student is an object containing:
+   * full name
+   * age
+   * two other properties of your choice
 2. Create a **method** in the classRoom object which can find if a student exists based on the full name
 3. Create a method which can add a student to the classRoom. If the student is already in the class it should not be added again.
 4. Create a method which can expel a student from the classRoom.
