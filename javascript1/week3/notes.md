@@ -6,7 +6,8 @@ https://www.notion.so/JS1-Week3-a0f122866ac34fc3b98b7a41870046f4
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop
 
 
-
+stack trace:
+  bread crumps
 
 objects
  - what and why objects
