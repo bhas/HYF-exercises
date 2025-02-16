@@ -11,7 +11,7 @@
 > - Adding and removing properties
 > - Mixing arrays and objects
 
-### Tasks (20 min)
+### Tasks
 
 1. Create an object called car with the following properties:
    - brand (e.g., "Toyota")
@@ -40,9 +40,6 @@
      'ChatGPT 4.0': 2
    }
    ```
-3. https://www.codewars.com/kata/colour-association/train/javascript
-4. https://www.codewars.com/kata/whos-online/train/javascript
-5. https://www.codewars.com/kata/add-property-to-every-object-in-array/train/javascript
 
 <!-- ------------------------------ PART 2 ----------------------------------- -->
 
@@ -55,7 +52,7 @@
 > - Finding items in arrays using `.indexOf()`
 > - Loop items using `for...of` loop
 
-### Tasks (20 min)
+### Tasks
 
 1. Define an array of 5 items that are all numbers
 2. Add one number at the end of the array
@@ -83,10 +80,6 @@
    alert(fruits.length); // ?
    ```
 
-2. https://www.codewars.com/kata/squash-the-bugs/train/javascript
-3. https://www.codewars.com/kata/is-this-my-tail/train/javascript
-4. https://www.codewars.com/kata/unfinished-loop-bug-fixing-number-1/train/javascript
-
 <!-- ------------------------------ PAUSE ----------------------------------- -->
 
 # `13:45` PAUSE (30 min)
@@ -102,7 +95,7 @@
 > - Reading call stacks from errors
 > - What is a Stack Overflow?
 
-### Tasks (20 min)
+### Tasks
 
 1. Visualize the call stack for this code and check if you guess correctly
 
@@ -141,22 +134,25 @@ planTrip();
 ```
 
 #### Bonus Tasks
+1. https://www.codewars.com/kata/squash-the-bugs/train/javascript
+3. https://www.codewars.com/kata/is-this-my-tail/train/javascript
+4. https://www.codewars.com/kata/unfinished-loop-bug-fixing-number-1/train/javascript
+3. https://www.codewars.com/kata/colour-association/train/javascript
+4. https://www.codewars.com/kata/whos-online/train/javascript
+5. https://www.codewars.com/kata/add-property-to-every-object-in-array/train/javascript
 
-1. TODO
-   https://github.com/HackYourFuture-CPH/JavaScript/blob/main/javascript1/week3/lesson-plan.md#call-stack-1
 
 <!-- ------------------------------ PART 4 ----------------------------------- -->
 
 # `15:00` PART 4 - METHODS
 
 > [!IMPORTANT]
->
-> - Understand Functions vs Methods
-> - Object Oriented Programming
+> - What are Methods?
 > - Defining methods
 > - Accessing properties using `this.`
+> - Object Oriented Programming
 
-### Tasks (30 min)
+### Tasks
 
 1. Make an object named `classRoom` which has a name, and a number of students of some fictional students. Imagine each student is an object containing a full name, age, and two other properties of your choice
 2. Create a **method** in the classRoom object which can find if a student exists based on the full name
