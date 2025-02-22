@@ -5,7 +5,16 @@
 # `12:15` PART 1 - 
 
 > [!IMPORTANT]
+> Top 3 most important soft-skills to land your first job:
+> * Problem-Solving
+> * Communication & Collaboration
+> * Continuous Learning & Adaptability
 >
+> Common disciplines of a developer:
+> * Building and designing new code
+> * Understanding and improving existing code
+> * Troubleshooting issues and fixing them
+> * Learning new concepts and technologies
 
 ### Tasks
 

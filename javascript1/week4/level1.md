@@ -1,6 +1,88 @@
 
-
+# Level 1 - Normal difficulty
 <!-- Simple loops, objects etc -->
+
+## Build Student Grades
+In this exercise you will create a basic system to manage student records. Let's get started:
+
+1. **Create Student Objects**
+    * Define a function `createStudent(name, age, grades)` that takes a student's name, age, and grades and return an object with these properties.
+2. **Store Students in an Array**
+    * Create an empty array called `students`.
+    * Use the `createStudent` function to create at least three student objects and store them in the students array.
+3. **Calculate Average Grade**
+    * Write a function `calculateAverageGrade(student)` that takes a student object and returns their average grade.
+4. **Find the Best Student**
+    * Write a function `findTopStudent(studentsArray)` that takes an array of students and returns the student with the highest average grade.
+5.  **Display Student Information**
+    * Write a function `displayStudentInfo(student)` that logs a message like:
+        `"John, Age: 20, Average Grade: 85"`
+    * Use this function to display details for all students in the students array.
+6. **Add Grades Dynamically**
+    * Modify the `createStudent` function to also include a method `addGrade(newGrade)` inside the student object, allowing new grades to be added dynamically.
+
+Now help us answer these questions for the below students:
+ * What is the average grade of Frank?
+ * Who has the highest average grades?
+ * Who has the lowest average grades?
+
+> * Allan 20 years - Grades: [10, 10, 7, 4, 7]
+> * Betty 22 years - Grades: [12, 7, 7, 4, 2]
+> * Charlie 21 years - Grades: [10, 7, 4, 2, 0]
+> * David 23 years - Grades: [7, 4, 2, 0, -3]
+> * Eva 20 years - Grades: [12, 7, 10, 2, 12]
+> * Grace 22 years - Grades: [7, 10, 7, 10, 7]
+> * Henry 21 years - Grades: [4, 7, 7, 4, 4]
+> * Irene 23 years - Grades: [2, 7, 7, 4, 0]
+
+
+## Build a Shopping Cart
+You will create a basic shopping cart system that calculates the total price, applies discounts, and adds taxes.
+
+1. **Create a Visitor Object**
+    * Write a function createVisitor(name, age, height, hasPass) and returns an object with these properties. Height should be in cm.
+2. **Calculate Ticket Price**
+    * Write a function calculateTicketPrice(visitor).
+    * Rules:
+        * Kids (under 12 years) → $10
+        * Teens (12-17 years) → $15
+        * Adults (18+) → $20
+        * Season Pass Holders → Free!
+3. **Ride Eligibility Check** 🎡
+    * Write a function `canRide(visitor, minHeight)` that returns `true` if the visitor is tall enough, otherwise `false`.
+    * Example:
+    ```js
+    canRide({ name: "Alice", height: 140 }, 120);  // true
+    canRide({ name: "Bob", height: 110 }, 120);  // false
+    ```
+
+4. **Group Visitors & Total Revenue**
+    * Create an array `visitors` with at least 5 visitor objects.
+    * Write a function `calculateTotalRevenue(visitors)` that:
+        * Loops through all visitors.
+        * Adds up the total ticket sales.
+        * Returns the total amount earned by the park.
+
+5. **Display Visitor Details**
+    * Write a function `displayVisitorInfo(visitor)` that logs:
+    ```yaml
+    Name: Jake | Age: 14 | Height: 150cm | Ticket Price: $15
+    ```
+
+🎯 **Bonus Challenge (Optional)**
+    * Add Ride Restrictions: Some rides have both height and age restrictions. Modify `canRide()` to also check minimum age.
+    * Family Discount: Modify `calculateTotalRevenue()` to apply a 10% discount if a group has 4 or more visitors.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
