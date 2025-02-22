@@ -3,7 +3,8 @@
 
 
 # Warmup exercises
-
+> [!IMPORTANT]
+> These warm-up exercises are designed to ease you into the material. You don't need to complete all of them; instead, choose 1-2 sections that interest you and work on those. When you're ready for more challenging tasks, proceed to the [regular exercises](link to thingy).
 
 
 ## Variables & Scope

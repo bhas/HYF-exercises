@@ -72,7 +72,8 @@ Continuously expanding your knowledge and skills by learning new programming lan
 
  **Learning goal**: Be able to effectively learn new topics and technologies on your own.
 
-
+Now let's get your fingers warmed up with some simple exercises!
+[Warm up exercises](./warmup.md) 
 
 
 <!-- ------------------------------ PAUSE ----------------------------------- -->
