@@ -1,61 +1,48 @@
 
 
+[!TIP]
+> **Divide and Conquer** is a programming technique that breaks a problem into smaller, more manageable subproblems, solves them individually, and then combines their solutions to solve the original problem. It is used to reduce problem complexity and making it easier to implement a solution and estimate the effort required.
+
+> [!TIP]
+> When refactoring existing code there is always a risk that we introduce bugs, so it is crucial that you take precautions to reduce the risk of introducing bugs. Here are some good steps to follow which limits these risks:
+> 1. **🔍 Understand the Code**: Thoroughly read and understand the existing code.
+> 2. **📝 Plan Changes**: Outline the changes you intend to make and weigh the effort required against the benefits.
+> 3. **🧪 Create Test Scenarios**: Develop test scenarios and document their expected outcomes.
+> 4. **💻 Implement Changes**: Make the necessary code changes.
+> 5. **✅ Verify Functionality**: Ensure that your test scenarios still pass after the changes.
+
+
+> [!TIP]
+> Effective troubleshooting involves a systematic approach:
+> 1. **🔍 Understand the Problem**: Gather all relevant information and understand how to reproduce the issue.
+> 2. **🕵️ Identify the Issue**: Locate where in the code the problem occurs and determine its cause.
+> 3. **🔧 Develop a Solution**: Implement a fix for the issue.
+> 4. **✅ Test the Solution**: Ensure the problem is resolved and no new issues have been introduced.
 
 
 
-## Skills
-* Problem-solving
-   * You don't have to know the path to success, but you should know how to find it
-   * Ability to break down issues and find efficient solutions (divide and conquor)
-* Communication
-   * understand / do / teach
-* Continuous learning
-   * Finding information
-   * Staying curious
-   * Using AI
+
+> [!TIP]
+> The best way to verify your understanding of a topic or some code is to explain it to someone else!
+
+> [!TIP]
+> Remember to take **breaks** once in a while to stretch and rest your eyes. The most productive people take regular breaks. Here are some ideas:
+> * Work for 25 minutes, then take a 5-minute break.
+> * Work for 50 minutes, then take a 15-minute break.
+> * Work in 90-minute deep focus sessions, then take a 20–30 minute break.
 
 
 
-* Attention to detail
-   * Writing code
-   * Reading code
-   * Clean code
 
-* Collaboration
-   * Danish culture
-   * Us > me
-
-
-### Format
-1. Introduction to practices
-2. Exercises in groups
-3. Explain the solution to group
-4. More Exercises
+> [!TIP]
+> **Lifelong Learning** is essential in the tech industry. Make it a habit to continously learn throughout your entire career to keep your skills sharp and relevant.
+> * Attend workshops
+> * Participate in online courses
+> * Read technical blogs and documentation
+> * Request feedback from others
+> * Mentor others
 
 
-## 🔥 Troubleshoot
-* Understand the issue
-* Identify where/how it happens
-* Find a solution to the issue
-* test that the solution works
-* divide by zero
-
-## 🧱 Built 
-  * breaking down problems
-  * clean code
-  * using arrays, objects and functions
-  * explaining solution
-
-## ✨ Refactor 
- * Understanding old code
- * identifying areas for improvement
- * refactor code and test that it works
-
-## 🎓 Learn 
-* finding sources for information
-* being curious
-* try it out!
-* explain it to a team mate
 
 
 ## exercises
@@ -87,29 +74,6 @@ Learn
 * arrow notation and filter()
 
 
-
-
-
-### Top 5 important skills
-1. Problem-Solving & Debugging
-   * Understanding how to break down problems logically
-   * Debugging efficiently using logs, breakpoints, and error messages
-   * Thinking critically about solutions before coding
-2. Programming Fundamentals
-   * Mastering a core language (JavaScript, Python, Java, etc.)
-   * Understanding data structures & algorithms
-   * Writing clean, maintainable, and readable code
-3. Version Control (Git & GitHub/GitLab)
-   * Knowing how to commit, push, pull, and resolve merge conflicts
-   * Working with branches and pull requests in team environments
-4. Communication & Collaboration
-   * Explaining code and technical issues clearly
-   * Asking the right questions and giving helpful feedback
-   * Working well in a team, including with non-developers
-5. Continuous Learning & Adaptability
-   * Staying curious and open to feedback
-   * Learning new tools, frameworks, and best practices quickly
-   * Developing a problem-solving mindset rather than memorizing syntax
 
 
 ### Tips
