@@ -40,13 +40,13 @@ Here are the four main disciplines you will have as a future software developer.
 The exercises are divided into four types to represent the types of tasks you will face in the industry
 
 ### 🧱 Implement new code
-Writing code for new features and developing applications.
-* Design a solution
-* Break it up into manageable subtasks
-* Implement the code
-* Test that it works as expected
-
-**Learning goal**: Be able to design and write your own code to solve real problems.
+> Writing code for new features and developing applications.
+> * Design a solution
+> * Break it up into manageable subtasks
+> * Implement the code
+> * Test that it works as expected
+> 
+> **Learning goal**: Be able to design and write your own code to solve real problems.
 
 ### 🔥 Troubleshoot issues
 Identifying, diagnosing, and resolving issues in the code.
