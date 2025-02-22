@@ -1,11 +1,8 @@
 
+# Level 3 - Very Hard Difficulty
+> [!IMPORTANT]
+> Welcome to the ultimate challenge! If you've made it this far, you're either very determined or looking for the toughest tasks. These exercises are not for the faint-hearted. There will be minimal guidance compared to the other levels, and you'll be working with more advanced topics. Choose an exercise that interests you, and don't hesitate to ask a mentor if you get stuck or revisit level 2 for a refresher.
 
-
-
-<!-- Challenging tasks requiring new knowledge -->
-
-
-2 exercises
 
 
 ## Guess the word (Wordle)

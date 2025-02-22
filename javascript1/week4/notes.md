@@ -42,6 +42,9 @@
 > * Request feedback from others
 > * Mentor others
 
+> [!TIP]
+> **Don't Repeat Yourself (DRY)** is a principle in software development that encourages avoiding code duplication by using functions, loops, or reusable components. This helps to keep the codebase clean, maintainable, and easier to understand.
+
 
 
 
@@ -97,16 +100,3 @@ Learn
 🛠 Use print statements/logging first before using a debugger.
 🛠 Break down big problems into small steps – Solve one part at a time.
 🛠 Rubber duck debugging – Explain your issue out loud (or to an actual duck) to clarify your thinking.
-
-#### Learn and read documentation
-
-#### Be curious
-
-
-
-#### Working with Git
-* pull from main
-* branch per task
-* 
-
-

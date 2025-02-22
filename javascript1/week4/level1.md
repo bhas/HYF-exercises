@@ -1,5 +1,8 @@
 
-# Level 1 - Normal difficulty
+# Level 1 - Regular Difficulty
+> [!IMPORTANT]
+> The Level 1 exercises will require you to apply your learnings from previous weeks. We recommend that you start with one exercise. If you find it easy, proceed to the [Level 2 exercises](./level2.md). Otherwise, try another exercise here.
+
 <!-- Simple loops, objects etc -->
 
 ## Build Student Grades

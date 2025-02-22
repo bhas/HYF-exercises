@@ -1,5 +1,7 @@
 
-
+# Level 1 - Hard Difficulty
+> [!IMPORTANT]
+> These exercises will challenge all your skills so far. There will be less guidance compared to Level 1, and you may need to learn new topics independently. Choose an exercise that interests you. Once completed, if you seek an even greater challenge, proceed to the [Level 3 exercises](./level3.md). Otherwise, try another exercise here.
 
 <!-- More advanced tasks -->
 
