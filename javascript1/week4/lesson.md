@@ -9,12 +9,6 @@
 > * Problem-Solving
 > * Communication & Collaboration
 > * Continuous Learning & Adaptability
->
-> Common disciplines of a developer:
-> * **Building** new code
-> * **Reviewing** existing code
-> * **Troubleshooting** issues
-> * **Learning** new concepts and technologies
 
 
 ## Hard & Soft Skills
@@ -28,49 +22,49 @@ Also, as you become more senior there will be a higher demand for soft skills.
 * Developers in Denmark are expected to take ownership of their tasks and actively participate in decision-making processes.
 * Denmark has a strong consensus culture, meaning that decisions are often made through discussion and mutual agreement. This requires good communication skills, collaboration, and the ability to consider different perspectives.
 
-## Disciplines of a Software Developer
-Here are the four main disciplines you will have as a future software developer. You will develop and enhance these skills throughout your time at HYF, during your final project, and in your future career.
+## Today's Exercises
+The exercises for today are divided into four types to represent the types of tasks you will face in the industry and which skills they require. This is your first chance to really practice this, but you will develop and enhance these skills throughout your time at HYF, during your final project, and in your future career.
+### 🧱 Implement New Code
+> Skills needed:
+> * Designing a solution
+> * Breaking down the solution into manageable subtasks
+> * Implementing the code
+> * Testing to ensure it works as expected
+>
+> **Learning goal**: Be able to design, implement, and test a solution from scratch, ensuring it meets the requirements and functions correctly.
 
+### 🔥 Troubleshoot issues
+> Skills needed:
+> * Understanding requirements
+> * Reading and analyzing code
+> * Identifying issues
+> * Developing and testing solutions
+>
+> **Learning goal**: Efficiently identify and resolve errors in code without introducing new issues. 
+
+### ✨ Review existing code
+> Skills needed:
+> * Understanding existing code
+> * Identifying areas for improvement
+> * Refactoring code and testing it
+>
+> **Learning goal**: Be able to read and understand code that does not follow your own coding style, identify potential improvements, and refactor it without introducing unintended side effects.
+
+### 🎓 Learn new concepts and technologies
+> Skills needed:
+> * Researching and finding good information
+> * Curiosity and willingness to explore
+> * Hands-on experimentation
+> * Explaining concepts to others
+>
+> **Learning goal**: Develop the ability to independently learn and understand new concepts and technologies, and effectively communicate your knowledge to others.
 
 
 <!-- ------------------------------ PART 2 ----------------------------------- -->
 
 # `12:45` PART 2 - Exercises
 
-The exercises are divided into four types to represent the types of tasks you will face in the industry
 
-### 🧱 Implement new code
-> Writing code for new features and developing applications.
-> * Design a solution
-> * Break it up into manageable subtasks
-> * Implement the code
-> * Test that it works as expected
-> 
-> **Learning goal**: Be able to design and write your own code to solve real problems.
-
-### 🔥 Troubleshoot issues
-> Identifying, diagnosing, and resolving issues in the code.
-> * Understand requirements
-> * Communicate with users
-> * Test your application
-
-**Learning goal**: Be able to efficiently identify errors and solve them without introducing unintentional side effects. 
-
-### ✨ Review existing code 
-> * Understanding old code
-> * identifying areas for improvement
-> * refactor code and test that it works
-
-**Learning goal**: Be able to read code that does not follow your own coding style and improve it without introducing unintentional side effects.
-
-### 🎓 Learn new concepts and technologies
-> Continuously expanding your knowledge and skills by learning new programming languages, frameworks, tools, and best practices.
-> * Finding sources for information
-> * Being curious
-> * Trying it out!
-> * Explaining it to a teammate
-
- **Learning goal**: Be able to effectively learn new topics and technologies on your own.
 
 Now let's get your fingers warmed up with some simple exercises!
 [Warm up exercises](./warmup.md) 
