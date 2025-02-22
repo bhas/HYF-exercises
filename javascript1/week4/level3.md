@@ -5,7 +5,7 @@
 
 
 
-## Guess the word (Wordle)
+## 🎓🧱 Guess the word (Wordle)
 You need to create a simple [Wordle-like game](https://www.nytimes.com/games/wordle/index.html) using Node.js where:
 
 * The player has to guess a 5-letter word.
@@ -41,7 +41,7 @@ You can use the below code to write in color:
 3. 
 
 
-## Guess the number
+## 🎓🧱 Guess the number
 Let's create a small game where you have to guess a secret number between 1-100.
 1. We want to add some interactivity to our application. Investigate how our program can ask/prompt a user for an input and explain it to a class mate and a mentor
    * How can we get a simple input such as the name from the user?
