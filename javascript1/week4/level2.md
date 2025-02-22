@@ -5,8 +5,6 @@
 
 
 
-4 exercises
-
 
 
 ## Next Birthday Countdown
