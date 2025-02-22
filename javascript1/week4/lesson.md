@@ -49,26 +49,26 @@ The exercises are divided into four types to represent the types of tasks you wi
 > **Learning goal**: Be able to design and write your own code to solve real problems.
 
 ### 🔥 Troubleshoot issues
-Identifying, diagnosing, and resolving issues in the code.
-* Understand requirements
-* Communicate with users
-* Test your application
+> Identifying, diagnosing, and resolving issues in the code.
+> * Understand requirements
+> * Communicate with users
+> * Test your application
 
 **Learning goal**: Be able to efficiently identify errors and solve them without introducing unintentional side effects. 
 
 ### ✨ Review existing code 
- * Understanding old code
- * identifying areas for improvement
- * refactor code and test that it works
+> * Understanding old code
+> * identifying areas for improvement
+> * refactor code and test that it works
 
 **Learning goal**: Be able to read code that does not follow your own coding style and improve it without introducing unintentional side effects.
 
 ### 🎓 Learn new concepts and technologies
-Continuously expanding your knowledge and skills by learning new programming languages, frameworks, tools, and best practices.
-* Finding sources for information
-* Being curious
-* Trying it out!
-* Explaining it to a teammate
+> Continuously expanding your knowledge and skills by learning new programming languages, frameworks, tools, and best practices.
+> * Finding sources for information
+> * Being curious
+> * Trying it out!
+> * Explaining it to a teammate
 
  **Learning goal**: Be able to effectively learn new topics and technologies on your own.
 
