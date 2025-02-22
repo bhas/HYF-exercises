@@ -18,15 +18,9 @@
 
 
 ## Hard & Soft Skills
+When you start applying for jobs, you will notice a significant focus on hard skills. However, this does not diminish the importance of soft skills. In Denmark, there is generally a greater emphasis on soft skills compared to many other countries. 
 
-| **Hard skills** | **Soft skills** |
-|-----------------|-----------------|
-| Describes which technologies and tools that you have learned to use through your experience. `Javascript`, `HTML/CSS`, `React`, `GitHub` etc. | Describes how you work personally and with others `Communication`, `Problem solving`, `Eye for details` etc. |
-
-
-When you start applying for jobs you will experience that there is a lot of focus on hard skills. However, it does not mean soft skills are not important. Denmark generally places more emphasis on soft skills compared to many other countries. And as you grow your career and go for promotions you are 
-
-Also, as you become more senior there will be a higher demand for strong soft skills.   
+Also, as you become more senior there will be a higher demand for soft skills.   
 
 #### Why Does Denmark Value Soft Skills Highly?
 * Danish companies often have a flat structure, where developers are expected to take responsibility, communicate openly, and work closely with colleagues and managers.
@@ -111,3 +105,7 @@ Continue working on the exercises...
 
 
 # `15:50` Course Evaluation
+* How are the exercises?
+* How is the format?
+* What worked well?
+* What could work even better?
