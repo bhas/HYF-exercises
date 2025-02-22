@@ -5,7 +5,7 @@
 
 <!-- Simple loops, objects etc -->
 
-## Build Student Grades
+## 🧱 Implement Student Grades
 In this exercise you will create a basic system to manage student records. Let's get started:
 
 1. **Create Student Objects**
@@ -39,7 +39,10 @@ Now help us answer these questions for the below students:
 > * Irene 23 years - Grades: [2, 7, 7, 4, 0]
 
 
-## Build a Shopping Cart
+
+
+
+## 🧱 Implement a Shopping Cart
 You will create a basic shopping cart system that calculates the total price, applies discounts, and adds taxes.
 
 1. **Create a Visitor Object**
@@ -87,11 +90,7 @@ You will create a basic shopping cart system that calculates the total price, ap
 
 
 
-
-
-
-
-## Refactor
+## ✨ Review and improve my code 
 ```js
 function f(x) {
     if (x) {
@@ -108,7 +107,7 @@ console.log(f(null)); // ???
 ```
 
 
-## Troubleshoot
+## ✨ Review the behaviour of JS
 
 1. Guess the output
 ```js
@@ -137,7 +136,7 @@ console.log("#10", a + h);
 
 
 
-## 1 🎓 Troubleshoot issue with grades
+## 🔥 Troubleshoot issue with grades
 Below is a piece of code that is supposed to process a list of students and their grades, and return the average grade for the class. The calculation should ignore any invalid grades (negative numbers or non-numeric grades). However, the code has some bugs. Your task is to identify and fix the issues.
 ```js
 function calculateAverageGrade(students) {
@@ -174,11 +173,8 @@ console.log("Average grade:", calculateAverageGrade(studentsList));
 1. Identify the bug(s) in the code.
 2. Fix the code so that it correctly calculates the average grade for the students.
 
-## 1 🎓 Troubleshoot
-clean up const / let and variable names
 
-
-## 1 🎓 Built a Recipe Management System
+## 1 🧱 Built a Recipe Management System
 You are tasked with creating a recipe management system. This system will keep track of recipes, each containing:
 * The name of the recipe.
 * The time it takes to cook the recipe, in minutes.
@@ -205,7 +201,7 @@ flour, milk, eggs, sugar
 
 
 
-## 1 🎓 Built
+## 1 🧱 Implement Summing
 1. Write a function called sumEvenNumbers that takes an array of numbers and returns the sum of only the even numbers in the array.
 ```js
 sumEvenNumbers([1, 2, 3, 4, 5, 6]); 
@@ -215,7 +211,7 @@ sumEvenNumbers([10, 15, 20, 25]);
 // Expected output: 30 (because 10 + 20 = 30)
 ```
 
-## 1 🎓 Built
+## 1 🧱 Implement second largest
 1. Write a function that takes an array of numbers and returns the second largest number. If there aren't enough unique numbers, return null.
 ```js
 console.log(secondLargest([10, 20, 4, 45, 99])); // 45
@@ -225,7 +221,7 @@ console.log(secondLargest([])); // null
 ```
 
 
-## 1 🎓 Refactor
+## 1 ✨ Review Amazon's code
 1. Describe in your own words to a team mate or mentor what this code does
 2. The code is hard to read due to poor naming. Can you improve it? (there might be more than just the names to improve) 
 ```js
@@ -256,7 +252,7 @@ console.log(filterItems(shpitms));
 
 
 
-## 1 🎓 Refactor
+## 1 ✨ Review IMDB's code
 1. Describe in your own words to a team mate or mentor what this code does
 2. The code is hard to read due to poor naming. Can you improve it? (there might be more than just the names to improve) 
 ```js

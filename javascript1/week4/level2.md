@@ -9,8 +9,13 @@
 
 
 
-## Next Birthday Countdown
-1. Investigate how we can work with dates in Javascript and explain it to a classmate and a mentor.
+
+
+
+
+
+## 🎓🧱 Next Birthday Countdown
+1. Learn how we can work with dates in Javascript and explain it to a classmate and a mentor.
    * How can I get today's date?
    * How can I get Jan 16th 1992?
    * What kind of operations can I do with dates?
@@ -20,7 +25,14 @@
     ```
 
 
-## Review NASA's Code
+
+
+
+
+
+
+
+## 🎓✨ Review NASA's Code
 NASA has called you to review their code from the latest space mission. The current code works, but it’s inefficient. Identify repeated logic, unnecessary code, and ways to improve clarity.
 1. The team member suggested that the code could be simplified using ternary operators, but what is that? 
    * Research what a ternary operator is and explain it to a team mate and a mentor
