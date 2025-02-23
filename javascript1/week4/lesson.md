@@ -14,7 +14,12 @@
 ## Hard & Soft Skills
 When you start applying for jobs, you will notice a significant focus on hard skills. However, this does not diminish the importance of soft skills. In Denmark, there is generally a greater emphasis on soft skills compared to many other countries. 
 
-Also, as you become more senior there will be a higher demand for soft skills.   
+Arguably he most important soft skills for you now are:
+* Problem-Solving
+* Communication & Collaboration
+* Continuous Learning & Adaptability
+
+Also, as you become more senior in your career, there will be a higher demand for soft skills such as communication, teamwork, leadership, and problem-solving. These skills are essential for effectively collaborating with colleagues, managing projects, and will be essential for your career growth.  
 
 #### Why Does Denmark Value Soft Skills Highly?
 * Danish companies often have a flat structure, where developers are expected to take responsibility, communicate openly, and work closely with colleagues and managers.
