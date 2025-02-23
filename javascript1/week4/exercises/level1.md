@@ -48,9 +48,6 @@ Now help us answer these questions for the below students:
 
 
 ## ✨ Review IMDB's code
-1. Describe in your own words to a team mate or mentor what this code does
-2. The code is hard to read due to poor naming. Can you improve it? (there might be more than just the names to improve) 
-
 > [!TIP]
 > When refactoring existing code there is always a risk that we introduce bugs, so it is crucial that you take precautions to reduce the risk of introducing bugs. Here are some good steps to follow which limits these risks:
 > 1. **🔍 Understand the Code**: Thoroughly read and understand the existing code.
@@ -58,6 +55,11 @@ Now help us answer these questions for the below students:
 > 3. **🧪 Create Test Scenarios**: Develop test scenarios and document their expected outcomes.
 > 4. **💻 Implement Changes**: Make the necessary code changes.
 > 5. **✅ Verify Functionality**: Ensure that your test scenarios still pass after the changes.
+
+1. Describe in your own words to a team mate or mentor what this code does
+2. The code is hard to read due to poor naming. Can you improve it? (there might be more than just the names to improve) 
+
+
 
 ```js
 function f(m) {
@@ -78,6 +80,12 @@ console.log(f(d));
 // Expected Output: ["Interstellar", "The Godfather"]
 ```
 
+
+
+
+
+
+## ✨ Review the behaviour of JS
 > [!TIP]
 > When **reviewing** code now you want to watch out for:
 > * Is all code required or can some be removed?
@@ -85,10 +93,6 @@ console.log(f(d));
 > * Is some code repeated which could be done with a function or a loop instead?
 > * Are each function doing one thing really well?
 
-
-
-
-## ✨ Review the behaviour of JS
 Your niece found this script on the internet and is asking how it works.
 1. Guess the output
 2. Now run the code, did you guess correctly?
@@ -119,14 +123,16 @@ console.log("#10", a + h);
 
 
 ## 🔥 Troubleshoot issue with grades
-Below is a piece of code that is supposed to process a list of students and their grades, and return the average grade for the class. The calculation should ignore any invalid grades (negative numbers or non-numeric grades). However, the code has some bugs. Your task is to identify and fix the issues.
-
 > [!TIP]
 > Effective troubleshooting involves a systematic approach:
 > 1. **🔍 Understand the Problem**: Gather all relevant information and understand how to reproduce the issue.
 > 2. **🕵️ Identify the Issue**: Locate where in the code the problem occurs and determine its cause.
 > 3. **🔧 Develop a Solution**: Implement a fix for the issue.
 > 4. **✅ Test the Solution**: Ensure the problem is resolved and no new issues have been introduced.
+
+Below is a piece of code that is supposed to process a list of students and their grades, and return the average grade for the class. The calculation should ignore any invalid grades (negative numbers or non-numeric grades). However, the code has some bugs. Your task is to identify and fix the issues.
+
+
 
 ```js
 function calculateAverageGrade(students) {
@@ -231,10 +237,12 @@ console.log(filterItems(shpitms));
 
 
 ## 🎓🧱 Handle Errors Gracefully
-In this exercise, you will learn how to handle errors in JavaScript. Proper error handling is crucial for building robust applications.
-
 > [!TIP]
 > The best way to verify your understanding of a topic or some code is to explain it to someone else!
+
+In this exercise, you will learn how to handle errors in JavaScript. Proper error handling is crucial for building robust applications.
+
+
 
 1. Learn how errors work in Javascript and explain it to a classmate and a mentor.
    * How can I create a custom error?
