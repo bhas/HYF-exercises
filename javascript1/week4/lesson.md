@@ -66,7 +66,7 @@ Now go to the [warm-up exercises](./warmup.md) to get started! 💪
 
 Once you have completed a few tasks, feel free to challenge yourself with more difficult exercises:
 * Our [Level 1 Exercises (regular)](./level1.md) will help you practice the topics already covered.
-* Our [Level 2 Exercises (semi-hard)](./level2.md) are for those who want a bit more challenge. These exercises are slightly harder and provide less guidance.
+* Our [Level 2 Exercises (hard)](./level2.md) are for those who want a bit more challenge. These exercises are slightly harder and provide less guidance.
 * Our [Level 3 Exercises (very hard)](./level3.md) are for those who want to push themselves further. These exercises are more difficult and may require you to learn new topics independently.
  
 

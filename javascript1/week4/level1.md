@@ -3,7 +3,8 @@
 > [!IMPORTANT]
 > The Level 1 exercises will require you to apply your learnings from previous weeks. We recommend that you start with one exercise. If you find it easy, proceed to the [Level 2 exercises](./level2.md). Otherwise, try another exercise here.
 
-<!-- Simple loops, objects etc -->
+
+
 
 ## 🧱 Implement Student Grades
 In this exercise you will create a basic system to manage student records. Let's get started:
@@ -16,13 +17,13 @@ In this exercise you will create a basic system to manage student records. Let's
 3. **Calculate Average Grade**
     * Write a function `calculateAverageGrade(student)` that takes a student object and returns their average grade.
 4. **Find the Best Student**
-    * Write a function `findTopStudent(studentsArray)` that takes an array of students and returns the student with the highest average grade.
+    * Write a function `findTopStudent(students)` that takes an array of students and returns the student with the highest average grade.
 5.  **Display Student Information**
     * Write a function `displayStudentInfo(student)` that logs a message like:
         `"John, Age: 20, Average Grade: 85"`
     * Use this function to display details for all students in the students array.
 6. **Add Grades Dynamically**
-    * Modify the `createStudent` function to also include a method `addGrade(newGrade)` inside the student object, allowing new grades to be added dynamically.
+    * Modify the `createStudent` function to also include a method `addGrade(newGrade)` inside the student object, allowing new grades to be added dynamically. Use this function to add a grade to a student after it is created.
 
 Now help us answer these questions for the below students:
  * What is the average grade of Frank?
@@ -42,74 +43,55 @@ Now help us answer these questions for the below students:
 
 
 
-## 🧱 Implement a Shopping Cart
-You will create a basic shopping cart system that calculates the total price, applies discounts, and adds taxes.
-
-1. **Create a Visitor Object**
-    * Write a function createVisitor(name, age, height, hasPass) and returns an object with these properties. Height should be in cm.
-2. **Calculate Ticket Price**
-    * Write a function calculateTicketPrice(visitor).
-    * Rules:
-        * Kids (under 12 years) → $10
-        * Teens (12-17 years) → $15
-        * Adults (18+) → $20
-        * Season Pass Holders → Free!
-3. **Ride Eligibility Check** 🎡
-    * Write a function `canRide(visitor, minHeight)` that returns `true` if the visitor is tall enough, otherwise `false`.
-    * Example:
-    ```js
-    canRide({ name: "Alice", height: 140 }, 120);  // true
-    canRide({ name: "Bob", height: 110 }, 120);  // false
-    ```
-
-4. **Group Visitors & Total Revenue**
-    * Create an array `visitors` with at least 5 visitor objects.
-    * Write a function `calculateTotalRevenue(visitors)` that:
-        * Loops through all visitors.
-        * Adds up the total ticket sales.
-        * Returns the total amount earned by the park.
-
-5. **Display Visitor Details**
-    * Write a function `displayVisitorInfo(visitor)` that logs:
-    ```yaml
-    Name: Jake | Age: 14 | Height: 150cm | Ticket Price: $15
-    ```
-
-🎯 **Bonus Challenge (Optional)**
-    * Add Ride Restrictions: Some rides have both height and age restrictions. Modify `canRide()` to also check minimum age.
-    * Family Discount: Modify `calculateTotalRevenue()` to apply a 10% discount if a group has 4 or more visitors.
 
 
 
 
+## ✨ Review IMDB's code
+1. Describe in your own words to a team mate or mentor what this code does
+2. The code is hard to read due to poor naming. Can you improve it? (there might be more than just the names to improve) 
 
+> [!TIP]
+> When refactoring existing code there is always a risk that we introduce bugs, so it is crucial that you take precautions to reduce the risk of introducing bugs. Here are some good steps to follow which limits these risks:
+> 1. **🔍 Understand the Code**: Thoroughly read and understand the existing code.
+> 2. **📝 Plan Changes**: Outline the changes you intend to make and weigh the effort required against the benefits.
+> 3. **🧪 Create Test Scenarios**: Develop test scenarios and document their expected outcomes.
+> 4. **💻 Implement Changes**: Make the necessary code changes.
+> 5. **✅ Verify Functionality**: Ensure that your test scenarios still pass after the changes.
 
-
-
-
-
-
-
-## ✨ Review and improve my code 
 ```js
-function f(x) {
-    if (x) {
-        return "User is " + x + " years old";
-    } else {
-        return "No age provided";
-    }
-}
+function f(m) {
+    let a = [];
+    for (let i = 0; i < m.length; i++) {
+        if (m[i].rating >= 8) {
+        a.push(m[i].title);
+    }} return a; }
 
-console.log(f(25)); // "User is 25 years old"
-console.log(f("30")); // "User is 30 years old"
-console.log(f("thirty")); // "User is thirty years old"
-console.log(f(null)); // ???
+let d = [
+    { title: "Interstellar", rating: 8.6 },
+    { title: "The Room", rating: 3.7 },
+    { title: "The Godfather", rating: 9.2 },
+    { title: "Cars", rating: 7.1 }
+];
+
+console.log(f(d)); 
+// Expected Output: ["Interstellar", "The Godfather"]
 ```
+
+> [!TIP]
+> When **reviewing** code now you want to watch out for:
+> * Is all code required or can some be removed?
+> * Are the naming of variables and functions good?
+> * Is some code repeated which could be done with a function or a loop instead?
+> * Are each function doing one thing really well?
+
+
 
 
 ## ✨ Review the behaviour of JS
-
+Your niece found this script on the internet and is asking how it works.
 1. Guess the output
+2. Now run the code, did you guess correctly?
 ```js
 const a = 10;
 const b = -10;
@@ -138,6 +120,14 @@ console.log("#10", a + h);
 
 ## 🔥 Troubleshoot issue with grades
 Below is a piece of code that is supposed to process a list of students and their grades, and return the average grade for the class. The calculation should ignore any invalid grades (negative numbers or non-numeric grades). However, the code has some bugs. Your task is to identify and fix the issues.
+
+> [!TIP]
+> Effective troubleshooting involves a systematic approach:
+> 1. **🔍 Understand the Problem**: Gather all relevant information and understand how to reproduce the issue.
+> 2. **🕵️ Identify the Issue**: Locate where in the code the problem occurs and determine its cause.
+> 3. **🔧 Develop a Solution**: Implement a fix for the issue.
+> 4. **✅ Test the Solution**: Ensure the problem is resolved and no new issues have been introduced.
+
 ```js
 function calculateAverageGrade(students) {
     let total = 0;
@@ -201,38 +191,27 @@ flour, milk, eggs, sugar
 
 
 
-## 1 🧱 Implement Summing
-1. Write a function called sumEvenNumbers that takes an array of numbers and returns the sum of only the even numbers in the array.
-```js
-sumEvenNumbers([1, 2, 3, 4, 5, 6]); 
-// Expected output: 12 (because 2 + 4 + 6 = 12)
-
-sumEvenNumbers([10, 15, 20, 25]); 
-// Expected output: 30 (because 10 + 20 = 30)
-```
-
-## 1 🧱 Implement second largest
-1. Write a function that takes an array of numbers and returns the second largest number. If there aren't enough unique numbers, return null.
-```js
-console.log(secondLargest([10, 20, 4, 45, 99])); // 45
-console.log(secondLargest([3, 3, 3])); // null
-console.log(secondLargest([5])); // null
-console.log(secondLargest([])); // null
-```
 
 
-## 1 ✨ Review Amazon's code
+
+## ✨ Review Amazon's code
 1. Describe in your own words to a team mate or mentor what this code does
 2. The code is hard to read due to poor naming. Can you improve it? (there might be more than just the names to improve) 
 ```js
 function filterItems(list) {
     let result = [];
     for (let i = 0; i < list.length; i++) {
-        if (list[i].price < 20 && list[i].inStock) {
-            let item = list[i].item;
-            result.push(item);
+        if (list[i].price < 30 && list[i].inStock) {
+            if (list[i].price < 20) {
+                let item = list[i].item;
+                result.push(item);
+            }
         }
     }
+    if (result.length === 0) {
+        return [];
+    }
+
     return result;
 }
 
@@ -251,26 +230,77 @@ console.log(filterItems(shpitms));
 
 
 
+## 🎓🧱 Handle Errors Gracefully
+In this exercise, you will learn how to handle errors in JavaScript. Proper error handling is crucial for building robust applications.
 
-## 1 ✨ Review IMDB's code
-1. Describe in your own words to a team mate or mentor what this code does
-2. The code is hard to read due to poor naming. Can you improve it? (there might be more than just the names to improve) 
-```js
-function f(m) {
-    let a = [];
-    for (let i = 0; i < m.length; i++) {
-        if (m[i].rating >= 8) {
-        a.push(m[i].title);
-    }} return a; }
+> [!TIP]
+> The best way to verify your understanding of a topic or some code is to explain it to someone else!
 
-let d = [
-    { title: "Interstellar", rating: 8.6 },
-    { title: "The Room", rating: 3.7 },
-    { title: "The Godfather", rating: 9.2 },
-    { title: "Cars", rating: 7.1 }
-];
+1. Learn how errors work in Javascript and explain it to a classmate and a mentor.
+   * How can I create a custom error?
+   * What does it mean to "handle" an error?
+    * What happens if you don't handle errors in your code?
+    * How can custom error classes improve error handling in your applications?
 
-console.log(f(d)); 
-// Expected Output: ["Interstellar", "The Godfather"]
+1. **Basic Error Handling**
+    * Write a function `divide(a, b)` that returns the result of dividing `a` by `b`.
+    * What happens if you call divide(5, 0)
+    * Make sure the method logs a meaningful error: `Division by zero is not allowed`
 
-```
+2. **Handling Multiple Errors**
+    * Use a `try...catch` block to handle errors that occurs.
+    ```js
+    function logOnlySmallNumbers(number) {
+        // make this function throw an error if the number is higher than 100
+        // otherwise log the number
+    }
+
+    function logSmallNumbers(numbers) {
+        // make sure this method logs all the small numbers by handling any errors
+        for (const number of numbers) {
+            logOnlySmallNumbers(number);
+        }    
+    }
+
+    logSmallNumbers([40, 150, 9999, 20, -10, 3000]);
+    ```
+    
+
+
+
+
+
+
+
+## 🧱 Implement a Shopping Cart
+You will create a basic shopping cart system that calculates the total price, applies discounts, and adds taxes.
+
+1. **Create a Visitor Object**
+    * Write a function createVisitor(name, age, height, hasPass) and returns an object with these properties. Height should be in cm.
+2. **Calculate Ticket Price**
+    * Write a function calculateTicketPrice(visitor).
+    * Rules:
+        * Kids (under 12 years) → $10
+        * Teens (12-17 years) → $15
+        * Adults (18+) → $20
+        * Season Pass Holders → Free!
+3. **Ride Eligibility Check** 🎡
+    * Write a function `canRide(visitor, minHeight)` that returns `true` if the visitor is tall enough, otherwise `false`.
+    * Example:
+    ```js
+    canRide({ name: "Alice", height: 140 }, 120);  // true
+    canRide({ name: "Bob", height: 110 }, 120);  // false
+    ```
+
+4. **Group Visitors & Total Revenue**
+    * Create an array `visitors` with at least 5 visitor objects.
+    * Write a function `calculateTotalRevenue(visitors)` that:
+        * Loops through all visitors.
+        * Adds up the total ticket sales.
+        * Returns the total amount earned by the park.
+
+5. **Display Visitor Details**
+    * Write a function `displayVisitorInfo(visitor)` that logs:
+    ```yaml
+    Name: Jake | Age: 14 | Height: 150cm | Ticket Price: $15
+    ```
