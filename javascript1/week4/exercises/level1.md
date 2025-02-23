@@ -6,7 +6,7 @@
 
 
 
-## 🧱 Implement Student Grades
+## 🧱 1.1 Implement Student Grades
 In this exercise you will create a basic system to manage student records. Let's get started:
 
 1. **Create Student Objects**
@@ -47,7 +47,7 @@ Now help us answer these questions for the below students:
 
 
 
-## ✨ Review IMDB's code
+## ✨ 1.2 Review IMDB's code
 > [!TIP]
 > When refactoring existing code there is always a risk that we introduce bugs, so it is crucial that you take precautions to reduce the risk of introducing bugs. Here are some good steps to follow which limits these risks:
 > 1. **🔍 Understand the Code**: Thoroughly read and understand the existing code.
@@ -85,7 +85,7 @@ console.log(f(d));
 
 
 
-## ✨ Review the behaviour of JS
+## ✨ 1.3 Review the behaviour of JS
 > [!TIP]
 > When **reviewing** code now you want to watch out for:
 > * Is all code required or can some be removed?
@@ -122,7 +122,7 @@ console.log("#10", a + h);
 
 
 
-## 🔥 Troubleshoot issue with grades
+## 🔥 1.4 Troubleshoot issue with grades
 > [!TIP]
 > Effective troubleshooting involves a systematic approach:
 > 1. **🔍 Understand the Problem**: Gather all relevant information and understand how to reproduce the issue.
@@ -170,7 +170,7 @@ console.log("Average grade:", calculateAverageGrade(studentsList));
 2. Fix the code so that it correctly calculates the average grade for the students.
 
 
-## 1 🧱 Built a Recipe Management System
+## 🧱 1.5 Built a Recipe Management System
 You are tasked with creating a recipe management system. This system will keep track of recipes, each containing:
 * The name of the recipe.
 * The time it takes to cook the recipe, in minutes.
@@ -200,7 +200,7 @@ flour, milk, eggs, sugar
 
 
 
-## ✨ Review Amazon's code
+## ✨ 1.6 Review Amazon's code
 1. Describe in your own words to a team mate or mentor what this code does
 2. The code is hard to read due to poor naming. Can you improve it? (there might be more than just the names to improve) 
 ```js
@@ -236,7 +236,7 @@ console.log(filterItems(shpitms));
 
 
 
-## 🎓🧱 Handle Errors Gracefully
+## 🎓🧱 1.7 Handle Errors Gracefully
 > [!TIP]
 > The best way to verify your understanding of a topic or some code is to explain it to someone else!
 
@@ -280,7 +280,7 @@ In this exercise, you will learn how to handle errors in JavaScript. Proper erro
 
 
 
-## 🧱 Implement a Shopping Cart
+## 🧱 1.8 Implement a Shopping Cart
 You will create a basic shopping cart system that calculates the total price, applies discounts, and adds taxes.
 
 1. **Create a Visitor Object**

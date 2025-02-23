@@ -4,8 +4,31 @@
 > Welcome to the ultimate challenge! If you've made it this far, you're either very determined or looking for the toughest tasks. These exercises are not for the faint-hearted. There will be minimal guidance compared to the other levels, and you'll be working with more advanced topics. Choose an exercise that interests you, and don't hesitate to ask a mentor if you get stuck or revisit level 2 for a refresher.
 
 
+## 🎓🧱 3.1 Guess the number
 
-## 🎓🧱 Guess the word (Wordle)
+Let's create a small game where you have to guess a secret number between 1-100.
+
+1. We want to add some interactivity to our application. Investigate how our program can ask/prompt a user for an input and explain it to a classmate and a mentor:
+    * How can we get a simple input such as the name from the user?
+    * Is it the same way whether we run our JavaScript using an HTML page or Node.js?
+
+2. Write a program that prompts the user for their name and responds with: `Hello, <name>!`
+
+3. Now create a simple number guessing game where:
+     * The program randomly selects a number between 1 and 100.
+     * The user must guess the number.
+     * The program provides feedback:
+          * "Too high!" if the guess is too high.
+          * "Too low!" if the guess is too low.
+          * "Congratulations! You guessed it!" if correct.
+     * The game continues until the user guesses correctly.
+
+4. Limit the number of guesses (e.g., 10 tries before revealing the answer).
+5. Track the number of attempts and display it at the end.
+
+
+
+## 🎓🧱 3.2 Guess the word (Wordle)
 You need to create a simple [Wordle-like game](https://www.nytimes.com/games/wordle/index.html) using Node.js where:
 
 * The player has to guess a 5-letter word.
@@ -41,27 +64,4 @@ You can use the below code to write in color:
 5. Implement the win/lose logic:
     * If the player guesses the correct word within 6 attempts, log: `Congratulations, you guessed the right word in X tries.` (where X is the number of attempts).
     * If the player uses all 6 guesses without success, log: `Sorry, you lose. The secret word was "APPLE".`
-
-
-## 🎓🧱 Guess the number
-
-Let's create a small game where you have to guess a secret number between 1-100.
-
-1. We want to add some interactivity to our application. Investigate how our program can ask/prompt a user for an input and explain it to a classmate and a mentor:
-    * How can we get a simple input such as the name from the user?
-    * Is it the same way whether we run our JavaScript using an HTML page or Node.js?
-
-2. Write a program that prompts the user for their name and responds with: `Hello, <name>!`
-
-3. Now create a simple number guessing game where:
-     * The program randomly selects a number between 1 and 100.
-     * The user must guess the number.
-     * The program provides feedback:
-          * "Too high!" if the guess is too high.
-          * "Too low!" if the guess is too low.
-          * "Congratulations! You guessed it!" if correct.
-     * The game continues until the user guesses correctly.
-
-4. Limit the number of guesses (e.g., 10 tries before revealing the answer).
-5. Track the number of attempts and display it at the end.
 

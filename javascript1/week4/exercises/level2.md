@@ -3,10 +3,6 @@
 > [!IMPORTANT]
 > These exercises will challenge all your skills so far. There will be less guidance compared to Level 1, and you may need to learn new topics independently. Choose an exercise that interests you. Once completed, if you seek an even greater challenge, proceed to the [Level 3 exercises](./level3.md). Otherwise, try another exercise here.
 
-
-
-
-
 > [!TIP]
 > Remember to take **breaks** once in a while to stretch and rest your eyes. The most productive people take regular breaks. Here are some ideas:
 > * Work for 25 minutes, then take a 5-minute break.
@@ -14,15 +10,7 @@
 > * Work in 90-minute deep focus sessions, then take a 20–30 minute break.
 
 
-
-
-
-
-
-
-
-
-## 🎓🧱 Next Birthday Countdown
+## 🎓🧱 2.1 Next Birthday Countdown
 1. Learn how we can work with dates in Javascript and explain it to a classmate and a mentor.
    * How can I get today's date?
    * How can I get Jan 16th 1992?
@@ -40,7 +28,7 @@
 
 
 
-## 🎓✨ Review NASA's Code
+## 🎓✨ 2.2 Review NASA's Code
 > [!TIP]
 > **Don't Repeat Yourself (DRY)** is a principle in software development that encourages avoiding code duplication by using functions, loops, or reusable components. This helps to keep the codebase clean, maintainable, and easier to understand.
 
@@ -116,7 +104,7 @@ printPassengerInfo("Robert", 21, 190, false);
 
 
 
-## 1 🔥🧱 Implement a Almost-Math tool
+## 🔥🧱 2.3 Implement a Almost-Math tool
 1. Write a function called `sumEvenNumbers` that takes an array of numbers and returns the sum of only the even numbers in the array.
     ```js
     sumEvenNumbers([1, 2, 3, 4, 5, 6]); 
