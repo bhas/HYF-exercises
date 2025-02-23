@@ -9,7 +9,7 @@
 [!TIP]
 > **Divide and Conquer** is a programming technique that breaks a problem into smaller, more manageable subproblems, solves them individually, and then combines their solutions to solve the original problem. It is used to reduce problem complexity and making it easier to implement a solution and estimate the effort required.
 
-## 🎓 Running your Javascript
+## 🎓 0.1 Running your Javascript
 There are two main ways of running Javascript: Via the Browser or through the terminal using `node`
 1. Create a `.js` file which logs:
     * A regular log: `Hello World`
@@ -25,7 +25,7 @@ There are two main ways of running Javascript: Via the Browser or through the te
     * Run the javascript file using the command `node <path to your file>`. <br>
     For instance `node ./script.js`
 
-## 🧱🔥 Variables & Scope
+## 🧱🔥 0.2 Variables & Scope
 1. Declare three variables: `name`, `age`, and `isStudent`. Assign appropriate values to them.
 2. Can you help me fix my code?
     ``` js
@@ -58,7 +58,7 @@ There are two main ways of running Javascript: Via the Browser or through the te
     ```
 
 
-## 🧱✨ Data types
+## 🧱✨ 0.3 Data types
 1. Define variables with different data types (string, number, boolean, undefined, null, object, array). They should all be something you may have for your team.
     ```js
     const team = "Team 31";
@@ -87,14 +87,14 @@ There are two main ways of running Javascript: Via the Browser or through the te
     ```
 
 
-## 🧱 Conditions
+## 🧱 0.4 Conditions
 1. Write a function that takes a user’s age as input and prints whether they are a child (0-12), a teenager (13-19), or an adult (20+).
 2. Create a function that asks for a number and prints whether it is positive, negative, or zero.
 3. Write a function that checks if a given year is a leap year (Hint: A leap year is divisible by 4).
 
 
 
-## 🧱 Loops
+## 🧱 0.5 Loops
 1. Print numbers from 1 to 10 using a for loop.
 2. Print a countdown from 10 to 1 using a for loop.
 2. Print even numbers between 1 and 20 using a for loop.
@@ -104,7 +104,7 @@ There are two main ways of running Javascript: Via the Browser or through the te
     ```
 
 
-## 🧱 Arrays
+## 🧱 0.6 Arrays
 1. Create an array of five favorite foods and print each item using a for..of loop.
 1. Write a function that takes an array of numbers and returns the sum of all elements. What is the sum of `[5, 10, -98, 17.5, 365, -2.5]`?
 1. Given an array `[10, 20, 30, 40, 50]`, write code to remove the last element and add 60 at the end.
@@ -112,14 +112,14 @@ There are two main ways of running Javascript: Via the Browser or through the te
 
 
 
-## 🧱 Objects
+## 🧱 0.7 Objects
 1. Create an object representing a book with properties: `title`, `author`, and `yearPublished`.
 2. Write a function that takes a book object and returns a string: `{title} by {author}, published in {yearPublished}`.
 3. Add a method getAge to the book object that returns how old the book is based on the current year.
 4. Write a function that takes an array of book objects and returns an array of all book titles.
 
 
-## 🧱 Functions
+## 🧱 0.8 Functions
 1. Write a function `greet` that takes a name as a parameter and returns a greeting message
     ```js
     console.log(greet("Alice")); // "Hello, Alice!"
