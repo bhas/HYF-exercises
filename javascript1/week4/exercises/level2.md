@@ -41,6 +41,9 @@
 
 
 ## 🎓✨ Review NASA's Code
+> [!TIP]
+> **Don't Repeat Yourself (DRY)** is a principle in software development that encourages avoiding code duplication by using functions, loops, or reusable components. This helps to keep the codebase clean, maintainable, and easier to understand.
+
 NASA has called you to review their code from the latest space mission. The current code works, but it’s inefficient. Identify repeated logic, unnecessary code, and ways to improve clarity.
 1. The team member suggested that the code could be simplified using ternary operators, but what is that? 
    * Research what a ternary operator is and explain it to a team mate and a mentor
@@ -109,8 +112,7 @@ printPassengerInfo("Quinn", 5, 100, false);
 printPassengerInfo("Robert", 21, 190, false);
 ```
 
-> [!TIP]
-> **Don't Repeat Yourself (DRY)** is a principle in software development that encourages avoiding code duplication by using functions, loops, or reusable components. This helps to keep the codebase clean, maintainable, and easier to understand.
+
 
 
 
