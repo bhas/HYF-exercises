@@ -4,7 +4,7 @@
 > Welcome to the ultimate challenge! If you've made it this far, you're either very determined or looking for the toughest tasks. These exercises are not for the faint-hearted. There will be minimal guidance compared to the other levels, and you'll be working with more advanced topics. Choose an exercise that interests you, and don't hesitate to ask a mentor if you get stuck or revisit level 2 for a refresher.
 
 
-## 🎓🧱 3.1 Guess the number
+## 🎓🧱 3.1 Implement a Guess-the-Number Game
 
 Let's create a small game where you have to guess a secret number between 1-100.
 
@@ -28,7 +28,7 @@ Let's create a small game where you have to guess a secret number between 1-100.
 
 
 
-## 🎓🧱 3.2 Guess the word (Wordle)
+## 🎓🧱 3.2 Implement a Guess-the-Word Game (Wordle)
 You need to create a simple [Wordle-like game](https://www.nytimes.com/games/wordle/index.html) using Node.js where:
 
 * The player has to guess a 5-letter word.

@@ -10,15 +10,23 @@
 > * Work in 90-minute deep focus sessions, then take a 20–30 minute break.
 
 
-## 🎓🧱 2.1 Next Birthday Countdown
+## 🎓🧱 2.1 Implement a Calendar 
 1. Learn how we can work with dates in Javascript and explain it to a classmate and a mentor.
-   * How can I get today's date?
-   * How can I get Jan 16th 1992?
-   * What kind of operations can I do with dates?
+    * How can I get today's date?
+    * How can I get Jan 16th 1992?
+    * What kind of operations can I do with dates?
 2. Write a function `daysUntilBirthday` that takes a birthdate (YYYY-MM-DD) as input and returns the number of days until the next birthday.
-    ```js
-    console.log(daysUntilBirthday("1995-06-15")); // Outputs the number of days until June 15 next occurrence
-    ```
+     ```js
+     console.log(daysUntilBirthday("1995-06-15")); // Outputs the number of days until June 15 next occurrence
+     ```
+3. Write a function `ageOnDate` that takes a birthdate (YYYY-MM-DD) and a specific date (YYYY-MM-DD) as input and returns the age on that date.
+     ```js
+     console.log(ageOnDate("1995-06-15", "2025-06-15")); // Outputs 30
+     ```
+4. Write a function `daysBetweenDates` that takes two dates (YYYY-MM-DD) as input and returns the number of days between them.
+     ```js
+     console.log(daysBetweenDates("2023-01-01", "2023-12-31")); // Outputs 364
+     ```
 
 
 

@@ -170,7 +170,7 @@ console.log("Average grade:", calculateAverageGrade(studentsList));
 2. Fix the code so that it correctly calculates the average grade for the students.
 
 
-## 🧱 1.5 Built a Recipe Management System
+## 🧱 1.5 Implement a Recipe Management System
 You are tasked with creating a recipe management system. This system will keep track of recipes, each containing:
 * The name of the recipe.
 * The time it takes to cook the recipe, in minutes.
@@ -236,7 +236,7 @@ console.log(filterItems(shpitms));
 
 
 
-## 🎓🧱 1.7 Handle Errors Gracefully
+## 🎓🧱 1.7 Implement Graceful Error Handling
 > [!TIP]
 > The best way to verify your understanding of a topic or some code is to explain it to someone else!
 
