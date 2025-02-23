@@ -21,7 +21,7 @@ You need to create a simple [Wordle-like game](https://www.nytimes.com/games/wor
    ```js
    ["apple", "giant", "horse", "hacky", "steep"]
    ``` 
-1. Write a function that takes a `secret word` and a `guess` and returns the colored response. For instance if the secret word is `apple` and you guess `alone` then the response should be <code style="color : yellowGreen">A</code> <code style="color : gold">L</code> `O` `N` <code style="color : yellowGreen">E</code>. 
+2. Write a function that takes a `secret word` and a `guess` and returns the colored response. For instance if the secret word is `apple` and you guess `alone` then the response should be <code style="color : yellowGreen">A</code> <code style="color : gold">L</code> `O` `N` <code style="color : yellowGreen">E</code>. 
 You can use the below code to write in color:
     ```js
     function green(text) {
@@ -34,27 +34,34 @@ You can use the below code to write in color:
 
     console.log(green('A'), yellow('L'), 'O', 'N', green('E'));
     ```
-2. We want to add some interactivity to our application. Investigate how our program can ask/prompt a user for an input and explain it to a class mate and a mentor
+3. We want to add some interactivity to our application. Investigate how our program can ask/prompt a user for an input and explain it to a class mate and a mentor
    * How can we get a simple input such as the name from the user?
    * Is it the same way whether we run our Javascript using an html page or node?
-2. Change the code to ask a user for input up to 6 times and after each time log the colored response
-3. 
+4. Modify the code to prompt the user for input after each guess and log the colored response.
+5. Implement the win/lose logic:
+    * If the player guesses the correct word within 6 attempts, log: `Congratulations, you guessed the right word in X tries.` (where X is the number of attempts).
+    * If the player uses all 6 guesses without success, log: `Sorry, you lose. The secret word was "APPLE".`
 
 
 ## 🎓🧱 Guess the number
+
 Let's create a small game where you have to guess a secret number between 1-100.
-1. We want to add some interactivity to our application. Investigate how our program can ask/prompt a user for an input and explain it to a class mate and a mentor
-   * How can we get a simple input such as the name from the user?
-   * Is it the same way whether we run our Javascript using an html page or node?
+
+1. We want to add some interactivity to our application. Investigate how our program can ask/prompt a user for an input and explain it to a classmate and a mentor:
+    * How can we get a simple input such as the name from the user?
+    * Is it the same way whether we run our JavaScript using an HTML page or Node.js?
+
 2. Write a program that prompts the user for their name and responds with: `Hello, <name>!`
+
 3. Now create a simple number guessing game where:
-    * The program randomly selects a number between 1 and 100.
-    * The user must guess the number.
-    * The program provides feedback:
-        * "Too high!" if the guess is too high.
-        * "Too low!" if the guess is too low.
-        * "Congratulations! You guessed it!" if correct.
-    * The game continues until the user guesses correctly.
+     * The program randomly selects a number between 1 and 100.
+     * The user must guess the number.
+     * The program provides feedback:
+          * "Too high!" if the guess is too high.
+          * "Too low!" if the guess is too low.
+          * "Congratulations! You guessed it!" if correct.
+     * The game continues until the user guesses correctly.
+
 4. Limit the number of guesses (e.g., 10 tries before revealing the answer).
 5. Track the number of attempts and display it at the end.
 
